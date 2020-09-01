@@ -4,17 +4,14 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Linu安装Docker, 可口可乐">
+    <meta name="keywords" content="Vim编辑器, 一个基于Hexo的静态博客">
     <meta name="baidu-site-verification" content="fmlEuI34ir">
     <meta name="google-site-verification" content="yCy2azpds5XSuGZvis6OuA-XIGF5GuGpYRAaGfD6o48">
     <meta name="360-site-verification" content="b7c11a830ef90fd1464ad6206bb7b6e7">
-    <meta name="description" content="&amp;lt;!-- more --&amp;gt; CentOS 7
-检查环境
+    <meta name="description" content="Vi编辑器
+Vi的基本概念基本上vi可以分为三种状态，分别是命令模式（command mode）、插入模式（Insert mode）和底行模式（last line mode），各模式的功能区分如下:
 
-检查内核版本，返回的值大于3.10即可
-uname -r卸载
-1.查询安装过的包
-yum list installed | grep dockerdocker-engin">
+命令行模式command mode）控">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -22,7 +19,7 @@ yum list installed | grep dockerdocker-engin">
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Linu安装Docker | 可口可乐</title>
+    <title>Vim编辑器 | 可口可乐</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -172,7 +169,7 @@ yum list installed | grep dockerdocker-engin">
         <div class="logo-name">可口可乐</div>
         <div class="logo-desc">
             
-            Never really desperate, only the lost of the soul.
+            Docker是个好东西   甄哺撮
             
         </div>
     </div>
@@ -245,74 +242,11 @@ yum list installed | grep dockerdocker-engin">
         </li>
         
         
-        <li><div class="divider"></div></li>
-        <li>
-            <a href="https://github.com/godweiyang/hexo-matery-modified" class="waves-effect waves-light" target="_blank">
-                <i class="fa fa-github-square fa-fw"></i>Fork Me
-            </a>
-        </li>
-        
     </ul>
 </div>
 
         </div>
 
-        
-            <style>
-    .nav-transparent .github-corner {
-        display: none !important;
-    }
-
-    .github-corner {
-        position: absolute;
-        z-index: 10;
-        top: 0;
-        right: 0;
-        border: 0;
-        transform: scale(1.1);
-    }
-
-    .github-corner svg {
-        color: #0f9d58;
-        fill: #fff;
-        height: 64px;
-        width: 64px;
-    }
-
-    .github-corner:hover .octo-arm {
-        animation: a 0.56s ease-in-out;
-    }
-
-    .github-corner .octo-arm {
-        animation: none;
-    }
-
-    @keyframes a {
-        0%,
-        to {
-            transform: rotate(0);
-        }
-        20%,
-        60% {
-            transform: rotate(-25deg);
-        }
-        40%,
-        80% {
-            transform: rotate(10deg);
-        }
-    }
-</style>
-
-<a href="https://github.com/godweiyang/hexo-matery-modified" class="github-corner tooltipped hide-on-med-and-down" target="_blank"
-   data-tooltip="Fork Me" data-position="left" data-delay="50">
-    <svg viewBox="0 0 250 250" aria-hidden="true">
-        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
-        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
-              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
-        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
-              fill="currentColor" class="octo-body"></path>
-    </svg>
-</a>
         
     </nav>
 
@@ -335,13 +269,13 @@ yum list installed | grep dockerdocker-engin">
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/FM/docker.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/FM/Vim.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        Linu安装Docker
+                        Vim编辑器
                     </div>
                 </div>
             </div>
@@ -452,8 +386,8 @@ yum list installed | grep dockerdocker-engin">
                     
                     <div class="article-tag">
                         
-                        <a href="/tags/Docker/" target="_blank">
-                            <span class="chip bg-color">Docker</span>
+                        <a href="/tags/Vim/" target="_blank">
+                            <span class="chip bg-color">Vim</span>
                         </a>
                         
                     </div>
@@ -482,7 +416,7 @@ yum list installed | grep dockerdocker-engin">
                 <div class="post-author info-break-policy">
                     <i class="fa fa-user-o fa-fw"></i>作者:&nbsp;&nbsp;
                     
-                    可口可乐
+                    丽
                     
                 </div>
 
@@ -490,14 +424,14 @@ yum list installed | grep dockerdocker-engin">
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    729
+                    2.4k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    3 分
+                    8 分
                 </div>
                 
                 
@@ -513,77 +447,108 @@ yum list installed | grep dockerdocker-engin">
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <pre><code>&lt;!-- more --&gt; </code></pre><p><strong>CentOS 7</strong></p>
-<p>检查环境</p>
+                <h2 id="Vi编辑器"><a href="#Vi编辑器" class="headerlink" title="Vi编辑器"></a>Vi编辑器</h2><ol>
+<li><p><strong><em>Vi的基本概念</em></strong><br>基本上vi可以分为三种状态，分别是命令模式（command mode）、插入模式（Insert mode）和底行模式（last line mode），各模式的功能区分如下:</p>
 <ol>
-<li><p>检查内核版本，返回的值大于3.10即可</p>
-<pre><code>uname -r</code></pre><p>卸载</p>
-<p>1.查询安装过的包</p>
-<p>yum list installed | grep docker<br>docker-engine.x86_64                 17.03.0.ce-1.el7.centos         @dockerrepo</p>
-<p>2.删除安装的软件包</p>
-<p>yum -y remove docker-engine.x86_64</p>
+<li>命令行模式command mode）<br>控制屏幕光标的移动，字符、字或行的删除，移动复制某区段及进入Insert mode下，或者到 last line mode。<ol start="2">
+<li>插入模式（Insert mode）<br>只有在Insert mode下，才可以做文字输入，按「ESC」键可回到命令行模式。</li>
+<li>底行模式（last line mode）  　　<br>将文件保存或退出vi，也可以设置编辑环境，如寻找字符串、列出行号……等。  不过一般我们在使用时把vi简化成两个模式，就是将底行模式（last line mode）也算入命令行模式command mode）。</li>
+</ol>
 </li>
 </ol>
-<pre><code>3.删除镜像/容器等
-
-rm -rf /var/lib/docker</code></pre><p>Centos7安装配置docker</p>
+</li>
+</ol>
 <ol start="2">
-<li><p>安装需要的软件包，yum-util 提供yum-config-manager功能，另外两个是devicemapper驱动依赖的</p>
-<pre><code>  yum install -y yum-utils device-mapper-persistent-data lvm2</code></pre></li>
-<li><p>设置yum源</p>
-<pre><code>  yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo</code></pre></li>
-<li><p>可以查看所有仓库中所有docker版本，并选择特定版本安装</p>
-<pre><code>    yum list docker-ce --showduplicates | sort -r</code></pre></li>
-<li><p>安装docker<br>​            选择最新安装即可</p>
-<pre><code>    yum install docker-ce-19.03.9-3.el7</code></pre></li>
-<li><p>验证安装</p>
-<pre><code> docker -v</code></pre></li>
-<li><p>启动并加入开机启动</p>
-<pre><code>       systemctl start docker
-       systemctl enable docker</code></pre></li>
+<li><p><strong><em>Vi的基本操作</em></strong></p>
+<ol>
+<li><p>切换至插入模式（Insert mode）编辑文件  　　<br> 在「命令行模式（command mode）」下按一下字母「i」就可以进入「插入模式（Insert mode）」，这时候你就可以开始输入文字了。  </p>
+</li>
+<li><p>Insert 的切换  　　</p>
+<p> 您目前处于「插入模式（Insert mode）」，您就只能一直输入文字，如果您发现输错了字！想用光标键往回移动，将该字删除，就要先按一下「ESC」键转到「命令行模式（command mode）」再删除文字。  </p>
+</li>
+<li><p>退出vi及保存文件  　　</p>
+<p> 在「命令行模式（command mode）」下，按一下「：」冒号键进入「Last line mode」，例如：  : w filename （输入 「w filename」将文章以指定的文件名filename保存）  : wq (输入「wq」，存盘并退出vi)  : q! (输入q!， 不存盘强制退出vi)</p>
+</li>
+</ol>
+</li>
+</ol>
+<pre><code>​    </code></pre><ol start="3">
+<li><p><strong><em>命令行模式（command mode）功能键</em></strong></p>
+<ol>
+<li><p>插入模式  　　<br> 按「i」切换进入插入模式「insert mode」，按“i”进入插入模式后是从光标当前位置开始输入文件；　　<br> 按「a」进入插入模式后，是从目前光标所在位置的下一个位置开始输入文字；  　　<br> 按「o」进入插入模式后，是插入新的一行，从行首开始输入文字。  </p>
+</li>
+<li><p>从插入模式切换为命令行模式  　　</p>
+<p> 按「ESC」键。  </p>
+</li>
+<li><p>移动光标  　　</p>
+<p> vi可以直接用键盘上的光标来上下左右移动，但正规的vi是用小写英文字母「h」「j」「k」「l」,分别控制光标左、下、上、右移一格。  　　<br> 按「ctrl」+「b」：屏幕往“后”移动一页。  　　<br> 按「ctrl」+「f」：屏幕往“前”移动一页。  　　<br> 按「ctrl」+「u」：屏幕往“后”移动半页。  　　<br> 按「ctrl」+「d」：屏幕往“前”移动半页。  　　<br> 按数字「0」：移到文章的开头。  　　<br> 按「G」：移动到文章的最后。  　　<br> 按「$」：移动到光标所在行的“行尾”。  　　<br> 按「^」：移动到光标所在行的“行首”  　　<br> 按「w」：光标跳到下个字的开头  　　<br> 按「e」：光标跳到下个字的字尾  　　<br> 按「b」：光标回到上个字的开头  　　<br> 按「#l」：光标移到该行的第#个位置，如：5l,56l。  </p>
+</li>
+<li><p>删除文字  　　</p>
+<p>  按「x」：每按一次，删除光标所在位置的“后面”一个字符。  　　<br>  按「#x」：例如，「6x」表示删除光标所在位置的“后面”6个字符。  　<br>  按「X」：大写的X，每按一次，删除光标所在位置的“前面”一个字符。  　　<br>  按 「#X」：例如，「20X」表示删除光标所在位置的“前面”20个字符。  　　<br>  按「dd」：删除光标所在行。  　　<br>  按「#dd」：从光标所在行开始删除#行  </p>
+</li>
+<li><p>复制</p>
+<p> 复制全部：esc后ggyG<br> 按「yw」：将光标所在之处到字尾的字符复制到缓冲区中。<br> 按「#yw」：复制#个字到缓冲区  　　<br> 按「yy」：复制光标所在行到缓冲区。  　　<br> 按「#yy」：例如，「6yy」表示拷贝从光标所在的该行“往下数”6行文字。  　　<br> 按「p」：将缓冲区内的字符贴到光标所在位置。注意：所有与“y”有关的复制命令都必须与“p”配合才能完成复制与粘贴功能。  </p>
+</li>
+<li><p>替换  　　</p>
+<p> 按「r」：替换光标所在处的字符。  　<br> 按「R」：替换光标所到之处的字符，直到按下「ESC」键为止。  </p>
+</li>
+<li><p>回复上一次操作  　　</p>
+<p> 按「u」：如果您误执行一个命令，可以马上按下「u」，回到上一个操作。按多次“u”可以执行多次回复。  </p>
+</li>
+<li><p>更改  　　</p>
+<p> 按「cw」：更改光标所在处的字到字尾处  　<br> 按「c#w」：例如，「c3w」表示更改3个字  </p>
+</li>
+<li><p>跳至指定的行  　　<br> 按「ctrl」+「g」列出光标所在行的行号。  　　<br> 按「#G」：例如，「15G」，表示移动光标至文章的第15行行首。</p>
+</li>
+</ol>
+</li>
+</ol>
+<ol start="4">
+<li><p><strong><em>Last line mode下命令简介</em></strong></p>
+<p> 在使用「last line mode」之前，请记住先按「ESC」键确定您已经处于「command mode」下后，再按「：」冒号即可进入「last line mode」。 </p>
+<ol>
+<li><p>列出行号  　<br>  按「set nu」：输入「set nu」后，会在文件中的每一行前面列出行号。  </p>
+<ol start="2">
+<li><p>跳到文件中的某一行  　</p>
+<p>按「#」：「#」号表示一个数字，在冒号后输入一个数字，再按回车键就会跳到该行了，如输入数字15，再回车，就会跳到文章的第15行。  </p>
+</li>
+<li><p>查找字符  　</p>
+<p>按「/关键字」：先按「/」键，再输入您想寻找的字符，如果第一次找的关键字不是您想要的，可以一直按「n」会往后寻找到您要的关键字为止。  　<br>按「?关键字」：先按「?」键，再输入您想寻找的字符，如果第一次找的关键字不是您想要的，可以一直按「n」会往前寻找到您要的关键字为止。  </p>
+</li>
+<li><p>保存文件  　</p>
+<p>按「w」：在冒号输入字母「w」就可以将文件保存起来。  </p>
+</li>
+<li><p>离开vi  　</p>
+<p>按「q」：按「q」就是退出，如果无法离开vi，可以在「q」后跟一个「!」强制离开vi。  　<br>按「qw」：一般建议离开时，搭配「w」一起使用，这样在退出的时候还可以保存文件。</p>
+</li>
+</ol>
+</li>
+</ol>
+</li>
 </ol>
 <hr>
-<p><strong>CentOS 8</strong></p>
-<p><a href="https://docs.docker.com/engine/install/centos/" target="blank">官方参考地址</a></p>
-<p>安装依赖</p>
-<pre class="line-numbers language-javascript"><code class="language-javascript">yum install <span class="token operator">-</span>y yum<span class="token operator">-</span>utils device<span class="token operator">-</span>mapper<span class="token operator">-</span>persistent<span class="token operator">-</span>data lvm2
-
-yum<span class="token operator">-</span>config<span class="token operator">-</span>manager <span class="token operator">--</span>add<span class="token operator">-</span>repo  https<span class="token punctuation">:</span><span class="token operator">/</span><span class="token operator">/</span>download<span class="token punctuation">.</span>docker<span class="token punctuation">.</span>com<span class="token operator">/</span>linux<span class="token operator">/</span>centos<span class="token operator">/</span>docker<span class="token operator">-</span>ce<span class="token punctuation">.</span>repo
-
-yum install docker<span class="token operator">-</span>ce docker<span class="token operator">-</span>ce<span class="token operator">-</span>cli containerd<span class="token punctuation">.</span>io<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>如果报错：Problem: package docker-ce-3:19.03.4-3.el7.x86_64 requires containerd.io &gt;= 1.2.2-3 那就先装新版的 containerd.io</p>
-<p>安装新版本containerd.io</p>
-<pre class="line-numbers language-javascript"><code class="language-javascript">rpm <span class="token operator">-</span>i 包名<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>再装剩下两个</p>
-<pre><code>yum install docker-ce docker-ce-cli</code></pre><p>启动docker</p>
-<pre><code>systemctl start docker</code></pre><p>查看版本</p>
-<pre><code>docker --version</code></pre><p>开机自启</p>
-<pre><code>systemctl enable docker</code></pre><hr>
-<p><strong>Debian</strong><br>环境</p>
+<p><strong><em>Vi命令列表</em></strong></p>
 <ol>
-<li>卸载旧版本<br>旧版本的 Docker 称为 docker 或者 docker-engine，使用以下命令卸载旧版本<pre><code>  apt-get remove docker docker-engine docker.io</code></pre></li>
-<li>Debian 7 的内核默认为 3.2，为了满足 Docker CE 的需求，应该安装 backports 的内核<br>2.1    Debian 7 Wheezy 使用以下命令<pre><code>  sudo apt-get update sudo apt-get install apt-transport-https ca-certificates curl lsb-release python-software-properties</code></pre>2.2    Debian 8 Jessie 或者 Debian 9 Stretch 使用以下命令<pre><code>  apt-get update &amp; apt-get install apt-transport-https ca-certificates curl gnupg2 lsb-release software-properties-common</code></pre></li>
-</ol>
-<p>安装 </p>
-<ol>
-<li><p>国内源<br>1.1    为了确认所下载软件包的合法性，需要添加软件源的 GPG 密钥。</p>
-<pre><code>  curl -fsSL https://mirrors.aliyun.com/docker-ce/linux/debian/gpg | apt-key add -</code></pre><p>1.2    然后，我们需要向 source.list 中添加 Docker CE 软件源：</p>
-<pre><code>  add-apt-repository &quot;deb [arch=amd64] https://mirrors.aliyun.com/docker-ce/linux/debian $(lsb_release -cs) stable&quot;</code></pre><p>  以上命令会添加稳定版本的 Docker CE APT 镜像源，如果需要最新版本的 Docker CE 请将 stable 改为 edge 或者 test。从 Docker 17.06 开始，edge test 版本的 APT 镜像源也会包含稳定版本的 Docker CE。</p>
+<li><p>移动光标类命令 </p>
+<p> h :光标左移一个字符<br> l :光标右移一个字符<br> space：光标右移一个字符<br> Backspace：光标左移一个字符<br> k或Ctrl+p：光标上移一行<br> j或Ctrl+n ：光标下移一行<br> Enter ：光标下移一行<br> w或W ：光标右移一个字至字首<br> b或B ：光标左移一个字至字首<br> e或E ：光标右移一个字j至字尾<br> ) ：光标移至句尾<br> ( ：光标移至句首<br> }：光标移至段落开头<br> {：光标移至段落结尾<br> nG：光标移至第n行首<br> n+：光标下移n行<br> n-：光标上移n行<br> n$：光标移至第n行尾<br> H ：光标移至屏幕顶行<br> M ：光标移至屏幕中间行<br> L ：光标移至屏幕最后行<br> 0：（注意是数字零）光标移至当前行首<br> $：光标移至当前行尾</p>
 </li>
-<li><p>官方源</p>
-<pre><code>  curl -fsSL https://download.docker.com/linux/debian/gpg | apt-key add - 
-  add-apt-repository \
-  &quot;deb [arch=amd64] https://download.docker.com/linux/debian
-  $(lsb_release -cs) \
-  stable&quot;</code></pre></li>
-<li><p>Debian 7 需要进行额外的操作<br>3.1    编辑 /etc/apt/sources.list 将 deb-src 一行删除或者使用 # 注释</p>
-<pre><code>  deb-src [arch=amd64] https://download.docker.com/linux/debian wheezy stable</code></pre></li>
-<li><p>安装 Docker CE<br>4.1    更新 apt 软件包缓存，并安装 docker-ce</p>
-<pre><code>  apt-get update 
-  apt-get install docker-ce</code></pre><p>4.2    验证Docker</p>
-<pre><code>  docker -v</code></pre></li>
-<li><p>显示Debian发行版的名称</p>
-<pre><code>  lsb_release -cs</code></pre></li>
+<li><p>屏幕翻滚类命令  </p>
+<p> Ctrl+u：向文件首翻半屏<br> Ctrl+d：向文件尾翻半屏<br> Ctrl+f：向文件尾翻一屏<br> Ctrl＋b；向文件首翻一屏<br> nz：将第n行滚至屏幕顶部，不指定n时将当前行滚至屏幕顶部。</p>
+</li>
+<li><p>插入文本类命令  </p>
+<p> i ：在光标前<br> I ：在当前行首<br> a：光标后<br> A：在当前行尾<br> o：在当前行之下新开一行<br> O：在当前行之上新开一行<br> r：替换当前字符<br> R：替换当前字符及其后的字符，直至按ESC键<br> s：从当前光标位置处开始，以输入的文本替代指定数目的字符<br> S：删除指定数目的行，并以所输入文本代替之<br> ncw或nCW：修改指定数目的字<br> nCC：修改指定数目的行</p>
+</li>
+<li><p>删除命令  </p>
+<p> ndw或ndW：删除光标处开始及其后的n-1个字<br> do：删至行首<br> d$：删至行尾<br> ndd：删除当前行及其后n-1行<br> x或X：删除一个字符，x删除光标后的，而X删除光标前的<br> Ctrl+u：删除输入方式下所输入的文本</p>
+</li>
+<li><p>搜索及替换命令<br>/pattern：从光标开始处向文件尾搜索pattern<br>?pattern：从光标开始处向文件首搜索pattern<br>n：在同一方向重复上一次搜索命令<br>N：在反方向上重复上一次搜索命令<br>：s/p1/p2/g：将当前行中所有p1均用p2替代<br>：n1,n2s/p1/p2/g：将第n1至n2行中所有p1均用p2替代<br>：g/p1/s//p2/g：将文件中所有p1均用p2替换</p>
+</li>
+<li><p>选项设置  </p>
+<p> all：列出所有选项设置情况<br> term：设置终端类型<br> ignorance：在搜索中忽略大小写<br> list：显示制表位(Ctrl+I)和行尾标志（$)<br> number：显示行号<br> report：显示由面向行的命令修改过的数目<br> terse：显示简短的警告信息<br> warn：在转到别的文件时若没保存当前文件则显示NO write信息<br> nomagic：允许在搜索模式中，使用前面不带“\”的特殊字符<br> nowrapscan：禁止vi在搜索到达文件两端时，又从另一端开始<br> mesg：允许vi显示其他用户用write写到自己终端上的信息</p>
+</li>
+<li><p>最后行方式命令  </p>
+<p> ：n1,n2 co n3：将n1行到n2行之间的内容拷贝到第n3行下<br> ：n1,n2 m n3：将n1行到n2行之间的内容移至到第n3行下<br> ：n1,n2 d ：将n1行到n2行之间的内容删除<br> ：w ：保存当前文件<br> ：e filename：打开文件filename进行编辑<br> ：x：保存当前文件并退出<br> ：q：退出vi<br> ：q!：不保存文件并退出vi<br> ：!command：执行shell命令command<br> ：n1,n2 w!command：将文件中n1行至n2行的内容作为command的输入并执行之，若不指  定n1，n2，则表示将整个文件内容作为command的输入<br> ：r!command：将命令command的输出结果放到当前行 。</p>
+</li>
 </ol>
 
             </div>
@@ -603,340 +568,17 @@ yum install docker<span class="token operator">-</span>ce docker<span class="tok
 
             
 
-    <div class="reprint" id="reprint-statement">
-        <p class="reprint-tip">
-            <i class="fa fa-exclamation-triangle"></i>&nbsp;&nbsp;
-            <span>转载规则</span>
-        </p>
-        
-            <div class="center-align">
-                <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.zh">
-                    <img alt=""
-                         style="border-width:0"
-                         src="https://i.creativecommons.org/l/by/4.0/88x31.png"/>
-                </a>
-            </div>
-            <br/>
-            <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
-                  property="dct:title" rel="dct:type">
-                    《Linu安装Docker》
-                </span> 由
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/object-object/" property="cc:attributionName"
-               rel="cc:attributionURL">
-                可口可乐
-            </a> 采用
-            <a rel="license" href="https://creativecommons.org/licenses/by/4.0/deed.zh">
-                知识共享署名 4.0 国际许可协议
-            </a>进行许可。
-        
-    </div>
-
-    <script async defer>
-      document.addEventListener("copy", function (e) {
-        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
-        M.toast({html: toastHTML})
-      });
-
-      function navToReprintStatement() {
-        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
-      }
-    </script>
-
 
         </div>
     </div>
 
     
-    <link rel="stylesheet" href="/libs/gitalk/gitalk.css">
-<link rel="stylesheet" href="/css/my-gitalk.css">
-
-<div class="card gitalk-card" data-aos="fade-up">
-    <div id="gitalk-container" class="card-content"></div>
-</div>
-
-<script src="/libs/gitalk/gitalk.min.js"></script>
-<script>
-    let gitalk = new Gitalk({
-        clientID: '',
-        clientSecret: '',
-        repo: 'godweiyang.github.io',
-        owner: 'godweiyang',
-        admin: "godweiyang",
-        id: 'object-object/',
-        distractionFreeMode: false  // Facebook-like distraction free mode
-    });
-
-    gitalk.render('gitalk-container');
-</script>
-    
 
     
 
     
 
     
-
-    
-    <style>
-    .valine-card {
-        margin: 1.5rem auto;
-    }
-
-    .valine-card .card-content {
-        padding: 20px 20px 5px 20px;
-    }
-
-    #vcomments input[type=text],
-    #vcomments input[type=email],
-    #vcomments input[type=url],
-    #vcomments textarea {
-        box-sizing: border-box;
-    }
-
-    #vcomments p {
-        margin: 2px 2px 10px;
-        font-size: 1.05rem;
-        line-height: 1.78rem;
-    }
-
-    #vcomments blockquote p {
-        text-indent: 0.2rem;
-    }
-
-    #vcomments a {
-        padding: 0 2px;
-        color: #42b983;
-        font-weight: 500;
-        text-decoration: underline;
-    }
-
-    #vcomments img {
-        max-width: 100%;
-        height: auto;
-        cursor: pointer;
-    }
-
-    #vcomments ol li {
-        list-style-type: decimal;
-    }
-
-    #vcomments ol,
-    ul {
-        display: block;
-        padding-left: 2em;
-        word-spacing: 0.05rem;
-    }
-
-    #vcomments ul li,
-    ol li {
-        display: list-item;
-        line-height: 1.8rem;
-        font-size: 1rem;
-    }
-
-    #vcomments ul li {
-        list-style-type: disc;
-    }
-
-    #vcomments ul ul li {
-        list-style-type: circle;
-    }
-
-    #vcomments table, th, td {
-        padding: 12px 13px;
-        border: 1px solid #dfe2e5;
-    }
-
-    #vcomments table, th, td {
-        border: 0;
-    }
-
-    table tr:nth-child(2n), thead {
-        background-color: #fafafa;
-    }
-
-    #vcomments table th {
-        background-color: #f2f2f2;
-        min-width: 80px;
-    }
-
-    #vcomments table td {
-        min-width: 80px;
-    }
-
-    #vcomments h1 {
-        font-size: 1.85rem;
-        font-weight: bold;
-        line-height: 2.2rem;
-    }
-
-    #vcomments h2 {
-        font-size: 1.65rem;
-        font-weight: bold;
-        line-height: 1.9rem;
-    }
-
-    #vcomments h3 {
-        font-size: 1.45rem;
-        font-weight: bold;
-        line-height: 1.7rem;
-    }
-
-    #vcomments h4 {
-        font-size: 1.25rem;
-        font-weight: bold;
-        line-height: 1.5rem;
-    }
-
-    #vcomments h5 {
-        font-size: 1.1rem;
-        font-weight: bold;
-        line-height: 1.4rem;
-    }
-
-    #vcomments h6 {
-        font-size: 1rem;
-        line-height: 1.3rem;
-    }
-
-    #vcomments p {
-        font-size: 1rem;
-        line-height: 1.5rem;
-    }
-
-    #vcomments hr {
-        margin: 12px 0;
-        border: 0;
-        border-top: 1px solid #ccc;
-    }
-
-    #vcomments blockquote {
-        margin: 15px 0;
-        border-left: 5px solid #42b983;
-        padding: 1rem 0.8rem 0.3rem 0.8rem;
-        color: #666;
-        background-color: rgba(66, 185, 131, .1);
-    }
-
-    #vcomments pre {
-        font-family: monospace, monospace;
-        padding: 1.2em;
-        margin: .5em 0;
-        background: #272822;
-        overflow: auto;
-        border-radius: 0.3em;
-        tab-size: 4;
-    }
-
-    #vcomments code {
-        font-family: monospace, monospace;
-        padding: 1px 3px;
-        font-size: 0.92rem;
-        color: #e96900;
-        background-color: #f8f8f8;
-        border-radius: 2px;
-    }
-
-    #vcomments pre code {
-        font-family: monospace, monospace;
-        padding: 0;
-        color: #e8eaf6;
-        background-color: #272822;
-    }
-
-    #vcomments pre[class*="language-"] {
-        padding: 1.2em;
-        margin: .5em 0;
-    }
-
-    #vcomments code[class*="language-"],
-    pre[class*="language-"] {
-        color: #e8eaf6;
-    }
-
-    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
-        position: inherit;
-        margin-left: -1.3rem;
-        margin-right: 0.4rem;
-        margin-top: -1px;
-        vertical-align: middle;
-        left: unset;
-        visibility: visible;
-    }
-
-    #vcomments b,
-    strong {
-        font-weight: bold;
-    }
-
-    #vcomments dfn {
-        font-style: italic;
-    }
-
-    #vcomments small {
-        font-size: 85%;
-    }
-
-    #vcomments cite {
-        font-style: normal;
-    }
-
-    #vcomments mark {
-        background-color: #fcf8e3;
-        padding: .2em;
-    }
-
-    #vcomments table, th, td {
-        padding: 12px 13px;
-        border: 1px solid #dfe2e5;
-    }
-
-    table tr:nth-child(2n), thead {
-        background-color: #fafafa;
-    }
-
-    #vcomments table th {
-        background-color: #f2f2f2;
-        min-width: 80px;
-    }
-
-    #vcomments table td {
-        min-width: 80px;
-    }
-
-    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
-        position: inherit;
-        margin-left: -1.3rem;
-        margin-right: 0.4rem;
-        margin-top: -1px;
-        vertical-align: middle;
-        left: unset;
-        visibility: visible;
-    }
-</style>
-
-<div class="card valine-card" data-aos="fade-up">
-    <div id="vcomments" class="card-content"></div>
-</div>
-
-<script src="/libs/valine/av-min.js"></script>
-<script src="/libs/valine/Valine.min.js"></script>
-<!-- <script src="//unpkg.com/valine@latest/dist/Valine.min.js"></script> -->
-
-<script>
-    new Valine({
-        el: '#vcomments',
-        appId: '',
-        appKey: '',
-        notify: 'false' === 'true',
-        verify: 'false' === 'true',
-        visitor: 'false' === 'true',
-        avatar: 'wavatar',
-        pageSize: '10',
-        lang: 'zh-cn',
-        placeholder: '如果你没有GitHub账号，还可以在这里评论啦！'
-    });
-</script>
 
     
 
@@ -945,35 +587,34 @@ yum install docker<span class="token operator">-</span>ce docker<span class="tok
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
-            </div>
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/object-object/">
+                <a href="/li/7c4cab82.html">
                     <div class="card-image">
                         
-                        <img src="/medias/FM/docker.jpg" class="responsive-img" alt="Linu安装Docker">
+                        <img src="/medias/FM/Debian.jpg" class="responsive-img" alt="Linux静态IP设置">
                         
-                        <span class="card-title">Linu安装Docker</span>
+                        <span class="card-title">Linux静态IP设置</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            &lt;!-- more --&gt; CentOS 7
-检查环境
-
-检查内核版本，返回的值大于3.10即可
-uname -r卸载
-1.查询安装过的包
-yum list installed | grep dockerdocker-engin
+                            ArchLinux
+​    1.编辑配置文件
+​            网卡
+/etc/dhcpcd.conf
+​    2.添加下列内容
+interface eth0                        #设置网卡名
+stat
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-09-01
-                            </span>
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2020-09-01
+                        </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
@@ -986,12 +627,11 @@ yum list installed | grep dockerdocker-engin
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Docker/" target="_blank">
-                        <span class="chip bg-color">Docker</span>
+                    <a href="/tags/Linux/" target="_blank">
+                        <span class="chip bg-color">Linux</span>
                     </a>
                     
                 </div>
@@ -1005,24 +645,21 @@ yum list installed | grep dockerdocker-engin
                 本篇&nbsp;<i class="fa fa-dot-circle-o"></i>
             </div>
             <div class="card">
-                <a href="/object-object/">
+                <a href="/li/73bed3ab.html">
                     <div class="card-image">
                         
-                        <img src="/medias/FM/docker.jpg" class="responsive-img" alt="Linu安装Docker">
+                        <img src="/medias/FM/Vim.jpg" class="responsive-img" alt="Vim编辑器">
                         
-                        <span class="card-title">Linu安装Docker</span>
+                        <span class="card-title">Vim编辑器</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            &lt;!-- more --&gt; CentOS 7
-检查环境
+                            Vi编辑器
+Vi的基本概念基本上vi可以分为三种状态，分别是命令模式（command mode）、插入模式（Insert mode）和底行模式（last line mode），各模式的功能区分如下:
 
-检查内核版本，返回的值大于3.10即可
-uname -r卸载
-1.查询安装过的包
-yum list installed | grep dockerdocker-engin
+命令行模式command mode）控
                         
                     </div>
                     <div class="publish-info">
@@ -1045,8 +682,8 @@ yum list installed | grep dockerdocker-engin
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Docker/" target="_blank">
-                        <span class="chip bg-color">Docker</span>
+                    <a href="/tags/Vim/" target="_blank">
+                        <span class="chip bg-color">Vim</span>
                     </a>
                     
                 </div>
@@ -1058,43 +695,6 @@ yum list installed | grep dockerdocker-engin
 </article>
 </div>
 
-
-<script>
-    $('#articleContent').on('copy', function (e) {
-        // IE8 or earlier browser is 'undefined'
-        if (typeof window.getSelection === 'undefined') return;
-
-        var selection = window.getSelection();
-        // if the selection is short let's not annoy our users.
-        if (('' + selection).length < Number.parseInt('120')) {
-            return;
-        }
-
-        // create a div outside of the visible area and fill it with the selected text.
-        var bodyElement = document.getElementsByTagName('body')[0];
-        var newdiv = document.createElement('div');
-        newdiv.style.position = 'absolute';
-        newdiv.style.left = '-99999px';
-        bodyElement.appendChild(newdiv);
-        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
-
-        // we need a <pre> tag workaround.
-        // otherwise the text inside "pre" loses all the line breaks!
-        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
-            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
-        }
-
-        var url = document.location.href;
-        newdiv.innerHTML += '<br />'
-            + '来源: 可口可乐<br />'
-            + '作者: 可口可乐<br />'
-            + '链接: <a href="' + url + '">' + url + '</a><br />'
-            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
-
-        selection.selectAllChildren(newdiv);
-        window.setTimeout(function () { bodyElement.removeChild(newdiv); }, 200);
-    });
-</script>
 
     </div>
     <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
@@ -1216,11 +816,11 @@ yum list installed | grep dockerdocker-engin
     <footer class="page-footer bg-color">
     <div class="container row center-align">
         <div class="col s12 m8 l8 copy-right">
-            &copy; 2020-2020 
+            &copy; 2020-2020
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">729</span>
+            <span class="white-color">3.5k</span>
             
 
             <br>
@@ -1279,8 +879,8 @@ yum list installed | grep dockerdocker-engin
     $(document).ready(function () {
 
         var int = setInterval(fixCount, 50);
-        var pvcountOffset = 80000;
-        var uvcountOffset = 20000;
+        var pvcountOffset = 0;
+        var uvcountOffset = 0;
 
         function fixCount() {
             if (document.getElementById("busuanzi_container_site_pv").style.display != "none") {
@@ -1318,7 +918,7 @@ yum list installed | grep dockerdocker-engin
         minutes - 0-59之间的整数，做为date对象的分钟数
         seconds - 0-59之间的整数，做为date对象的秒数
         microseconds - 0-999之间的整数，做为date对象的毫秒数 */
-        var t1 = Date.UTC(2020, 08, 31, 00, 00, 00); //北京时间2018-2-13 00:00:00
+        var t1 = Date.UTC(2020, 08, 31, 23, 00, 00); //北京时间2018-2-13 00:00:00
         var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
         var diff = t2 - t1;
         var diffYears = Math.floor(diff / years);
@@ -1330,7 +930,6 @@ yum list installed | grep dockerdocker-engin
     }/*因为建站时间还没有一年，就将之注释掉了。需要的可以取消*/
     siteTime();
 </script>
-
 
     <!-- 搜索遮罩框 -->
 <div id="searchModal" class="modal">

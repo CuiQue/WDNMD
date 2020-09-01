@@ -5,23 +5,23 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https:/"/>
-  <updated>2020-09-01T12:08:55.352Z</updated>
-  <id>https:/</id>
+  <link href="https://chensitong.gitee.io/"/>
+  <updated>2020-09-01T13:45:28.933Z</updated>
+  <id>https://chensitong.gitee.io/</id>
   
   <author>
-    <name>可口可乐</name>
+    <name>丽</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Linu安装Docker</title>
-    <link href="https:/object-object/"/>
-    <id>https:/object-object/</id>
+    <title>Linux装Docker</title>
+    <link href="https://chensitong.gitee.io/li/a3201697.html"/>
+    <id>https://chensitong.gitee.io/li/a3201697.html</id>
     <published>2020-09-01T11:40:07.000Z</published>
-    <updated>2020-09-01T12:08:55.352Z</updated>
+    <updated>2020-09-01T13:45:28.933Z</updated>
     
     <summary type="html">
     
@@ -29,16 +29,75 @@
       
         
         
-          &lt;pre&gt;&lt;code&gt;&amp;lt;!-- more --&amp;gt; &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;CentOS
+          &lt;p&gt;&lt;strong&gt;CentOS 7&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;检查环境&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;检查内核版本，返回的值大于3.10即可&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;uname
         
       
     
     </summary>
     
-      <category term="Linux" scheme="https:/categories/Linux/"/>
+      <category term="Linux" scheme="https://chensitong.gitee.io/categories/Linux/"/>
     
     
-      <category term="Docker" scheme="https:/tags/Docker/"/>
+      <category term="Docker" scheme="https://chensitong.gitee.io/tags/Docker/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux静态IP设置</title>
+    <link href="https://chensitong.gitee.io/li/7c4cab82.html"/>
+    <id>https://chensitong.gitee.io/li/7c4cab82.html</id>
+    <published>2020-09-01T11:40:07.000Z</published>
+    <updated>2020-09-01T13:45:28.933Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;ArchLinux&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;​    1.编辑配置文件&lt;/p&gt;
+&lt;p&gt;​            网卡&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-javascript&quot;&gt;&lt;code
+        
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="https://chensitong.gitee.io/categories/Linux/"/>
+    
+    
+      <category term="Linux" scheme="https://chensitong.gitee.io/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vim编辑器</title>
+    <link href="https://chensitong.gitee.io/li/73bed3ab.html"/>
+    <id>https://chensitong.gitee.io/li/73bed3ab.html</id>
+    <published>2020-09-01T11:40:07.000Z</published>
+    <updated>2020-09-01T13:45:28.933Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Vi编辑器&quot;&gt;&lt;a href=&quot;#Vi编辑器&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Linux" scheme="https://chensitong.gitee.io/categories/Linux/"/>
+    
+    
+      <category term="Vim" scheme="https://chensitong.gitee.io/tags/Vim/"/>
     
   </entry>
   
