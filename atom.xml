@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>可口可乐</title>
+  <title>菜鸟驿站</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chensitong.gitee.io/"/>
-  <updated>2020-09-01T13:45:28.933Z</updated>
+  <updated>2020-09-05T12:51:26.570Z</updated>
   <id>https://chensitong.gitee.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Linux装Docker</title>
+    <title>Docker安装</title>
     <link href="https://chensitong.gitee.io/li/a3201697.html"/>
     <id>https://chensitong.gitee.io/li/a3201697.html</id>
     <published>2020-09-01T11:40:07.000Z</published>
-    <updated>2020-09-01T13:45:28.933Z</updated>
+    <updated>2020-09-05T12:51:26.570Z</updated>
     
     <summary type="html">
     
@@ -47,11 +47,11 @@
   </entry>
   
   <entry>
-    <title>Linux静态IP设置</title>
+    <title>Linux设置静态IP</title>
     <link href="https://chensitong.gitee.io/li/7c4cab82.html"/>
     <id>https://chensitong.gitee.io/li/7c4cab82.html</id>
     <published>2020-09-01T11:40:07.000Z</published>
-    <updated>2020-09-01T13:45:28.933Z</updated>
+    <updated>2020-09-05T12:52:05.834Z</updated>
     
     <summary type="html">
     
