@@ -4,16 +4,27 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="Linux源, 一个基于Hexo的静态博客">
+    <meta name="keywords" content="MARKDOWN 语法说明, 一个基于Hexo的静态博客">
     <meta name="baidu-site-verification" content="fmlEuI34ir">
     <meta name="google-site-verification" content="yCy2azpds5XSuGZvis6OuA-XIGF5GuGpYRAaGfD6o48">
     <meta name="360-site-verification" content="b7c11a830ef90fd1464ad6206bb7b6e7">
-    <meta name="description" content="
-CentOS
+    <meta name="description" content="MARKDOWN 语法说明1
 
-# 腾讯
-# The mirror system uses the connecting IP address of the client and the
-# update status of each mirror to">
+````
+标题
+---------------------------
+
+# 一级标题
+## 二级标题
+### 三级标题
+
+
+样式
+---------------------------
+
+*斜体* 
+
+**">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -21,7 +32,7 @@ CentOS
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>Linux源 | 菜鸟驿站</title>
+    <title>MARKDOWN 语法说明 | 菜鸟驿站</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -271,13 +282,13 @@ CentOS
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/FM/Debian.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/FM/markdown.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        Linux源
+                        MARKDOWN 语法说明
                     </div>
                 </div>
             </div>
@@ -388,8 +399,8 @@ CentOS
                     
                     <div class="article-tag">
                         
-                        <a href="/tags/源/" target="_blank">
-                            <span class="chip bg-color">源</span>
+                        <a href="/tags/MarkDown/" target="_blank">
+                            <span class="chip bg-color">MarkDown</span>
                         </a>
                         
                     </div>
@@ -400,8 +411,8 @@ CentOS
                     <div class="post-cate">
                         <i class="fa fa-bookmark fa-fw icon-category"></i>
                         
-                        <a href="/categories/Linux/" class="post-category" target="_blank">
-                            Linux
+                        <a href="/categories/MarkDown/" class="post-category" target="_blank">
+                            MarkDown
                         </a>
                         
                     </div>
@@ -412,7 +423,7 @@ CentOS
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-09-01
+                    2020-09-06
                 </div>
 
                 <div class="post-author info-break-policy">
@@ -426,14 +437,14 @@ CentOS
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    2.6k
+                    2.4k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    15 分
+                    12 分
                 </div>
                 
                 
@@ -449,350 +460,573 @@ CentOS
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <details>
-<summary>CentOS</summary>
-<pre><code>
-# 腾讯
-# The mirror system uses the connecting IP address of the client and the
-# update status of each mirror to pick mirrors that are updated to and
-# geographically close to the client.  You should use this for CentOS updates
-# unless you are manually picking other mirrors.
-# If the mirrorlist= does not work for you, as a fall back you can try the
-# remarked out baseurl= line instead.
-&nbsp;
-[os]
-name=Qcloud centos os - $basearch
-baseurl=http://mirrors.cloud.tencent.com/centos/$releasever/os/$basearch/
-enabled=1
-gpgcheck=1
-gpgkey=http://mirrors.cloud.tencent.com/centos/RPM-GPG-KEY-CentOS-7
-&nbsp;
-[updates]
-name=Qcloud centos updates - $basearch
-baseurl=http://mirrors.cloud.tencent.com/centos/$releasever/updates/$basearch/
-enabled=1
-gpgcheck=1
-gpgkey=http://mirrors.cloud.tencent.com/centos/RPM-GPG-KEY-CentOS-7
-&nbsp;
-[centosplus]
-name=Qcloud centosplus - $basearch
-baseurl=http://mirrors.cloud.tencent.com/centos/$releasever/centosplus/$basearch/
-enabled=0
-gpgcheck=1
-gpgkey=http://mirrors.cloud.tencent.com/centos/RPM-GPG-KEY-CentOS-7
-&nbsp;
-[cloud]
-name=Qcloud centos contrib - $basearch
-baseurl=http://mirrors.cloud.tencent.com/centos/$releasever/cloud/$basearch/openstack-kilo/
-enabled=0
-gpgcheck=1
-gpgkey=http://mirrors.cloud.tencent.com/centos/RPM-GPG-KEY-CentOS-7
-&nbsp;
-[cr]
-name=Qcloud centos cr - $basearch
-baseurl=http://mirrors.cloud.tencent.com/centos/$releasever/cr/$basearch/
-enabled=0
-gpgcheck=1
-gpgkey=http://mirrors.cloud.tencent.com/centos/RPM-GPG-KEY-CentOS-7
-&nbsp;
-[extras]
-name=Qcloud centos extras - $basearch
-baseurl=http://mirrors.cloud.tencent.com/centos/$releasever/extras/$basearch/
-enabled=1
-gpgcheck=1
-gpgkey=http://mirrors.cloud.tencent.com/centos/RPM-GPG-KEY-CentOS-7
-&nbsp;
-[fasttrack]
-name=Qcloud centos fasttrack - $basearch
-baseurl=http://mirrors.cloud.tencent.com/centos/$releasever/fasttrack/$basearch/
-enabled=0
-gpgcheck=1
-gpgkey=http://mirrors.cloud.tencent.com/centos/RPM-GPG-KEY-CentOS-7
-&nbsp;
-&nbsp;
-# 阿里云
-# The mirror system uses the connecting IP address of the client and the
-# update status of each mirror to pick mirrors that are updated to and
-# geographically close to the client.  You should use this for CentOS updates
-# unless you are manually picking other mirrors.
-# If the mirrorlist= does not work for you, as a fall back you can try the
-# remarked out baseurl= line instead.
-&nbsp;
-[base]
-name=CentOS-$releasever - Base - mirrors.aliyun.com
-failovermethod=priority
-baseurl=http://mirrors.aliyun.com/centos/$releasever/os/$basearch/
-http://mirrors.aliyuncs.com/centos/$releasever/os/$basearch/
-http://mirrors.cloud.aliyuncs.com/centos/$releasever/os/$basearch/
-gpgcheck=1
-gpgkey=http://mirrors.aliyun.com/centos/RPM-GPG-KEY-CentOS-7
-&nbsp;
-#released updates
-[updates]
-name=CentOS-$releasever - Updates - mirrors.aliyun.com
-failovermethod=priority
-baseurl=http://mirrors.aliyun.com/centos/$releasever/updates/$basearch/
-http://mirrors.aliyuncs.com/centos/$releasever/updates/$basearch/
-http://mirrors.cloud.aliyuncs.com/centos/$releasever/updates/$basearch/
-gpgcheck=1
-gpgkey=http://mirrors.aliyun.com/centos/RPM-GPG-KEY-CentOS-7
-&nbsp;
-#additional packages that may be useful
-[extras]
-name=CentOS-$releasever - Extras - mirrors.aliyun.com
-failovermethod=priority
-baseurl=http://mirrors.aliyun.com/centos/$releasever/extras/$basearch/
-http://mirrors.aliyuncs.com/centos/$releasever/extras/$basearch/
-http://mirrors.cloud.aliyuncs.com/centos/$releasever/extras/$basearch/
-gpgcheck=1
-gpgkey=http://mirrors.aliyun.com/centos/RPM-GPG-KEY-CentOS-7
-&nbsp;
-#additional packages that extend functionality of existing packages
-[centosplus]
-name=CentOS-$releasever - Plus - mirrors.aliyun.com
-failovermethod=priority
-baseurl=http://mirrors.aliyun.com/centos/$releasever/centosplus/$basearch/
-http://mirrors.aliyuncs.com/centos/$releasever/centosplus/$basearch/
-http://mirrors.cloud.aliyuncs.com/centos/$releasever/centosplus/$basearch/
-gpgcheck=1
-enabled=0
-gpgkey=http://mirrors.aliyun.com/centos/RPM-GPG-KEY-CentOS-7
-&nbsp;
-#contrib - packages by Centos Users
-[contrib]
-name=CentOS-$releasever - Contrib - mirrors.aliyun.com
-failovermethod=priority
-baseurl=http://mirrors.aliyun.com/centos/$releasever/contrib/$basearch/
-http://mirrors.aliyuncs.com/centos/$releasever/contrib/$basearch/
-http://mirrors.cloud.aliyuncs.com/centos/$releasever/contrib/$basearch/
-gpgcheck=1
-enabled=0
-gpgkey=http://mirrors.aliyun.com/centos/RPM-GPG-KEY-CentOS-7
-&nbsp;
-&nbsp;
-# 中科大
-# The mirror system uses the connecting IP address of the client and the
-# update status of each mirror to pick mirrors that are updated to and
-# geographically close to the client.  You should use this for CentOS updates
-# unless you are manually picking other mirrors.
-# If the mirrorlist= does not work for you, as a fall back you can try the
-# remarked out baseurl= line instead.
-&nbsp;
-[base]
-name=CentOS-$releasever - Base
-#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=os&infra=$infra
-baseurl=https://mirrors.ustc.edu.cn/centos/$releasever/os/$basearch/
-gpgcheck=1
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
-&nbsp;
-#released updates
-[updates]
-name=CentOS-$releasever - Updates
-#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=updates&infra=$infra
-baseurl=https://mirrors.ustc.edu.cn/centos/$releasever/updates/$basearch/
-gpgcheck=1
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
-&nbsp;
-#additional packages that may be useful
-[extras]
-name=CentOS-$releasever - Extras
-#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=extras&infra=$infra
-baseurl=https://mirrors.ustc.edu.cn/centos/$releasever/extras/$basearch/
-gpgcheck=1
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
-&nbsp;
-#additional packages that extend functionality of existing packages
-[centosplus]
-name=CentOS-$releasever - Plus
-#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=centosplus&infra=$infra
-baseurl=https://mirrors.ustc.edu.cn/centos/$releasever/centosplus/$basearch/
-gpgcheck=1
-enabled=0
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
-&nbsp;
-&nbsp;
-# 清华源
-# The mirror system uses the connecting IP address of the client and the
-# update status of each mirror to pick mirrors that are updated to and
-# geographically close to the client.  You should use this for CentOS updates
-# unless you are manually picking other mirrors.
-# If the mirrorlist= does not work for you, as a fall back you can try the
-# remarked out baseurl= line instead.
-&nbsp;
-[base]
-name=CentOS-$releasever - Base
-baseurl=https://mirrors.tuna.tsinghua.edu.cn/centos/$releasever/os/$basearch/
-#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=os
-enabled=1
-gpgcheck=1
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-7
-&nbsp;
-#released updates
-[updates]
-name=CentOS-$releasever - Updates
-baseurl=https://mirrors.tuna.tsinghua.edu.cn/centos/$releasever/updates/$basearch/
-#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=updates
-enabled=1
-gpgcheck=1
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-7
-&nbsp;
-#additional packages that may be useful
-[extras]
-name=CentOS-$releasever - Extras
-baseurl=https://mirrors.tuna.tsinghua.edu.cn/centos/$releasever/extras/$basearch/
-#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=extras
-enabled=1
-gpgcheck=1
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-7
-&nbsp;
-#additional packages that extend functionality of existing packages
-[centosplus]
-name=CentOS-$releasever - Plus
-baseurl=https://mirrors.tuna.tsinghua.edu.cn/centos/$releasever/centosplus/$basearch/
-#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=centosplus
-gpgcheck=1
-enabled=0
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-7
+                <h4 id="MARKDOWN-语法说明"><a href="#MARKDOWN-语法说明" class="headerlink" title="MARKDOWN 语法说明"></a>MARKDOWN 语法说明</h4><details><summary>1</summary><p>
 
-<p></p></code></pre><p></p>
-</details>
+<pre><code>````
+标题
+---------------------------
 
-<details>
-<summary>Debian 10</summary>
-<pre><code>
-# 华为云镜像站
-    deb https://mirrors.huaweicloud.com/debian/ buster main contrib non-free
-    deb https://mirrors.huaweicloud.com/debian/ buster-updates main contrib non-free
-    deb https://mirrors.huaweicloud.com/debian/ buster-backports main contrib non-free
-    deb https://mirrors.huaweicloud.com/debian-security/ buster/updates main contrib non-free
-    deb-src https://mirrors.huaweicloud.com/debian/ buster main contrib non-free
-    deb-src https://mirrors.huaweicloud.com/debian/ buster-updates main contrib non-free
-    deb-src https://mirrors.huaweicloud.com/debian/ buster-backports main contrib non-free
-&nbsp;
-# 中科大镜像站
-    deb https://mirrors.ustc.edu.cn/debian/ buster main contrib non-free
-    deb https://mirrors.ustc.edu.cn/debian/ buster-updates main contrib non-free
-    deb https://mirrors.ustc.edu.cn/debian/ buster-backports main contrib non-free
-    deb https://mirrors.ustc.edu.cn/debian-security/ buster/updates main contrib non-free
-    deb-src https://mirrors.ustc.edu.cn/debian/ buster main contrib non-free
-    deb-src https://mirrors.ustc.edu.cn/debian/ buster-updates main contrib non-free
-    deb-src https://mirrors.ustc.edu.cn/debian/ buster-backports main contrib non-free
-    deb-src https://mirrors.ustc.edu.cn/debian-security/ buster/updates main contrib non-free
-&nbsp;
-# 腾讯云镜像站
-    deb http://mirrors.cloud.tencent.com/debian/ buster main non-free contrib
-    deb http://mirrors.cloud.tencent.com/debian-security buster/updates main
-    deb http://mirrors.cloud.tencent.com/debian/ buster-updates main non-free contrib
-    deb http://mirrors.cloud.tencent.com/debian/ buster-backports main non-free contrib
-    deb-src http://mirrors.cloud.tencent.com/debian-security buster/updates main
-    deb-src http://mirrors.cloud.tencent.com/debian/ buster main non-free contrib
-    deb-src http://mirrors.cloud.tencent.com/debian/ buster-updates main non-free contrib
-    deb-src http://mirrors.cloud.tencent.com/debian/ buster-backports main non-free contrib
-&nbsp;
-# 清华大学镜像站
-    deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster main contrib non-free
-    deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-updates main contrib non-free
-    deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-backports main contrib non-free
-    deb https://mirrors.tuna.tsinghua.edu.cn/debian-security/ buster/updates main contrib non-free
-    deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster main contrib non-free
-    deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-updates main contrib non-free
-    deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-backports main contrib non-free
-    deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security/ buster/updates main contrib non-free
-&nbsp;
-# 阿里云镜像站
-    deb http://mirrors.aliyun.com/debian/ buster main non-free contrib
-    deb http://mirrors.aliyun.com/debian-security buster/updates main
-    deb http://mirrors.aliyun.com/debian/ buster-updates main non-free contrib
-    deb http://mirrors.aliyun.com/debian/ buster-backports main non-free contrib
-    deb-src http://mirrors.aliyun.com/debian-security buster/updates main
-    deb-src http://mirrors.aliyun.com/debian/ buster main non-free contrib
-    deb-src http://mirrors.aliyun.com/debian/ buster-updates main non-free contrib
-    deb-src http://mirrors.aliyun.com/debian/ buster-backports main non-free contrib
-</code></pre>
-</details>
+# 一级标题
+## 二级标题
+### 三级标题
 
 
-<details>
-<summary>Ubuntu</summary>
-<pre><code>
-# USTC
-deb https://mirrors.ustc.edu.cn/ubuntu/ focal main restricted universe multiverse
-# deb-src https://mirrors.ustc.edu.cn/ubuntu/ focal main restricted universe multiverse
-deb https://mirrors.ustc.edu.cn/ubuntu/ focal-updates main restricted universe multiverse
-# deb-src https://mirrors.ustc.edu.cn/ubuntu/ focal-updates main restricted universe multiverse
-deb https://mirrors.ustc.edu.cn/ubuntu/ focal-backports main restricted universe multiverse
-# deb-src https://mirrors.ustc.edu.cn/ubuntu/ focal-backports main restricted universe multiverse
-deb https://mirrors.ustc.edu.cn/ubuntu/ focal-security main restricted universe multiverse
-# deb-src https://mirrors.ustc.edu.cn/ubuntu/ focal-security main restricted universe multiverse
-# 预发布软件源，不建议启用
-# deb https://mirrors.ustc.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse
-# deb-src https://mirrors.ustc.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse
-&nbsp;
-# 阿里云
-deb http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ focal main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ focal-security main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ focal-updates main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ focal-proposed main restricted universe multiverse
-deb http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
-deb-src http://mirrors.aliyun.com/ubuntu/ focal-backports main restricted universe multiverse
-&nbsp;
-# 腾讯
-deb http://mirrors.cloud.tencent.com/ubuntu/ focal main restricted universe multiverse
-deb http://mirrors.cloud.tencent.com/ubuntu/ focal-security main restricted universe multiverse
-deb http://mirrors.cloud.tencent.com/ubuntu/ focal-updates main restricted universe multiverse
-# deb http://mirrors.cloud.tencent.com/ubuntu/ focal-proposed main restricted universe multiverse
-# deb http://mirrors.cloud.tencent.com/ubuntu/ focal-backports main restricted universe multiverse
-deb-src http://mirrors.cloud.tencent.com/ubuntu/ focal main restricted universe multiverse
-deb-src http://mirrors.cloud.tencent.com/ubuntu/ focal-security main restricted universe multiverse
-deb-src http://mirrors.cloud.tencent.com/ubuntu/ focal-updates main restricted universe multiverse
-# deb-src http://mirrors.cloud.tencent.com/ubuntu/ focal-proposed main restricted universe multiverse
-# deb-src http://mirrors.cloud.tencent.com/ubuntu/ focal-backports main restricted universe multiverse
-&nbsp;
-# 清华
-# 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
-deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse
-deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-updates main restricted universe multiverse
-deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-backports main restricted universe multiverse
-deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse
-#deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-security main restricted universe multiverse
-# 预发布软件源，不建议启用
-# deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse
-&nbsp;
-# 网易163
-deb http://mirrors.163.com/ubuntu/ focal main restricted universe multiverse
-deb http://mirrors.163.com/ubuntu/ focal-security main restricted universe multiverse
-deb http://mirrors.163.com/ubuntu/ focal-updates main restricted universe multiverse
-deb http://mirrors.163.com/ubuntu/ focal-proposed main restricted universe multiverse
-deb http://mirrors.163.com/ubuntu/ focal-backports main restricted universe multiverse
-deb-src http://mirrors.163.com/ubuntu/ focal main restricted universe multiverse
-deb-src http://mirrors.163.com/ubuntu/ focal-security main restricted universe multiverse
-deb-src http://mirrors.163.com/ubuntu/ focal-updates main restricted universe multiverse
-deb-src http://mirrors.163.com/ubuntu/ focal-proposed main restricted universe multiverse
-deb-src http://mirrors.163.com/ubuntu/ focal-backports main restricted universe multiverse
-&nbsp;
-# Ubuntu 官方源 
-deb http://archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse
-deb http://archive.ubuntu.com/ubuntu/ focal-security main restricted universe multiverse
-deb http://archive.ubuntu.com/ubuntu/ focal-updates main restricted universe multiverse
-deb http://archive.ubuntu.com/ubuntu/ focal-proposed main restricted universe multiverse
-deb http://archive.ubuntu.com/ubuntu/ focal-backports main restricted universe multiverse
-deb-src http://archive.ubuntu.com/ubuntu/ focal main restricted universe multiverse
-deb-src http://archive.ubuntu.com/ubuntu/ focal-security main restricted universe multiverse
-deb-src http://archive.ubuntu.com/ubuntu/ focal-updates main restricted universe multiverse
-deb-src http://archive.ubuntu.com/ubuntu/ focal-proposed main restricted universe multiverse
-deb-src http://archive.ubuntu.com/ubuntu/ focal-backports main restricted universe multiverse
+样式
+---------------------------
 
-<p></p></code></pre><p></p>
-</details>
+*斜体* 
 
+**粗体** 
+
+==高亮==
+
+~~删除线~~
+
+&gt; 引用
+
+H~2~O 下标
+
+2^10^ 上标
+
+&lt;details&gt;&lt;summary&gt;标题&lt;/summary&gt;&lt;p&gt;
+内容
+&lt;/p&gt;&lt;/details&gt;
+
+列表
+---------------------------
+
+无序列表
+- Item
+* Item
+    + Item
+
+有序列表
+1. Item 1
+2. Item 2
+3. Item 3
+
+待办列表:
+- [ ] Incomplete item
+- [x] Complete item
+
+
+
+链接
+---------------------------
+
+A [link](http://example.com).文字链接
+
+An image: ![Alt](img.jpg)图片链接
+
+A sized image: ![Alt](img.jpg =60x50)固定大小的图片
+
+
+
+代码
+---------------------------
+
+单行代码
+Some `inline code`.
+
+代码块
+```
+// A code block
+var foo = &#39;bar&#39;;
+```
+
+语言标注
+```javascript
+// An highlighted block
+var foo = &#39;bar&#39;;
+```
+
+
+
+表格
+---------------------------
+
+Item     | Value
+-------- | -----
+Computer | $1600
+Phone    | $12
+Pipe     | $1
+
+
+| Column 1 | Column 2      |
+|:--------:| -------------:|
+| centered | right-aligned |
+
+
+
+自定义列表
+---------------------------
+
+Markdown
+:  Text-to-HTML conversion tool
+
+Authors
+:  John
+:  Luke
+
+
+
+注脚
+---------------------------
+
+Some text with a footnote.[^1]
+
+[^1]: The footnote.
+
+
+
+缩写
+---------------------------
+
+Markdown converts text to HTML.
+
+*[HTML]: HyperText Markup Language
+
+
+
+公式编辑器
+---------------------------
+
+示例1
+$\Gamma(n) = (n-1)!\quad\forall
+n\in\mathbb N$ 
+
+示例2
+$$
+\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
+$$
+````</code></pre></p></details>
+
+<details><summary>2</summary><p>
+    ```
+    # 欢迎使用 Markdown在线编辑器 MdEditor
+
+<pre><code>**Markdown是一种轻量级的「标记语言」**
+
+
+![markdown](https://www.mdeditor.com/images/logos/markdown.png &quot;markdown&quot;)
+
+
+Markdown是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。它允许人们使用易读易写的纯文本格式编写文档，然后转换成格式丰富的HTML页面，Markdown文件的后缀名便是“.md”
+
+
+## MdEditor是一个在线编辑Markdown文档的编辑器
+
+*MdEditor扩展了Markdown的功能（如表格、脚注、内嵌HTML等等），以使让Markdown转换成更多的格式，和更丰富的展示效果，这些功能原初的Markdown尚不具备。*
+
+&gt; Markdown增强版中比较有名的有Markdown Extra、MultiMarkdown、 Maruku等。这些衍生版本要么基于工具，如~~Pandoc~~，Pandao；要么基于网站，如GitHub和Wikipedia，在语法上基本兼容，但在一些语法和渲染效果上有改动。
+
+MdEditor源于Pandao的JavaScript开源项目，开源地址[Editor.md](https://github.com/pandao/editor.md &quot;Editor.md&quot;)，并在MIT开源协议的许可范围内进行了优化，以适应广大用户群体的需求。向优秀的markdown开源编辑器原作者Pandao致敬。
+
+
+![Pandao editor.md](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png &quot;Pandao editor.md&quot;)
+
+
+
+## MdEditor的功能列表演示
+
+# 标题H1
+
+## 标题H2
+
+### 标题H3
+
+#### 标题H4
+
+##### 标题H5
+
+###### 标题H5
+
+### 字符效果和横线等
+----
+
+~~删除线~~ &lt;s&gt;删除线（开启识别HTML标签时）&lt;/s&gt;
+
+*斜体字*      _斜体字_
+
+**粗体**  __粗体__
+
+***粗斜体*** ___粗斜体___
+
+上标：X&lt;sub&gt;2&lt;/sub&gt;，下标：O&lt;sup&gt;2&lt;/sup&gt;
+
+**缩写(同HTML的abbr标签)**
+&gt; 即更长的单词或短语的缩写形式，前提是开启识别HTML标签时，已默认开启
+
+The &lt;abbr title=&quot;Hyper Text Markup Language&quot;&gt;HTML&lt;/abbr&gt; specification is maintained by the &lt;abbr title=&quot;World Wide Web Consortium&quot;&gt;W3C&lt;/abbr&gt;.
+### 引用 Blockquotes
+
+&gt; 引用文本 Blockquotes
+
+引用的行内混合 Blockquotes
+
+&gt; 引用：如果想要插入空白换行`即&lt;br /&gt;标签`，在插入处先键入两个以上的空格然后回车即可，[普通链接](https://www.mdeditor.com/)。
+
+### 锚点与链接 Links
+[普通链接](https://www.mdeditor.com/)
+[普通链接带标题](https://www.mdeditor.com/ &quot;普通链接带标题&quot;)
+直接链接：&lt;https://www.mdeditor.com&gt;
+[锚点链接][anchor-id]
+[anchor-id]: https://www.mdeditor.com/
+[mailto:test.test@gmail.com](mailto:test.test@gmail.com)
+GFM a-tail link @pandao
+邮箱地址自动链接 test.test@gmail.com  www@vip.qq.com
+&gt; @pandao
+
+### 多语言代码高亮 Codes
+
+#### 行内代码 Inline code
+
+
+执行命令：`npm install marked`
+
+#### 缩进风格
+
+即缩进四个空格，也做为实现类似 `&lt;pre&gt;` 预格式化文本 ( Preformatted Text ) 的功能。
+
+    &lt;?php
+        echo &quot;Hello world!&quot;;
+    ?&gt;
+预格式化文本：
+
+    | First Header  | Second Header |
+    | ------------- | ------------- |
+    | Content Cell  | Content Cell  |
+    | Content Cell  | Content Cell  |
+
+#### JS代码
+```javascript
+function test() {
+    console.log(&quot;Hello world!&quot;);
+}
+```
+
+#### HTML 代码 HTML codes
+```html
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;mate charest=&quot;utf-8&quot; /&gt;
+        &lt;meta name=&quot;keywords&quot; content=&quot;Editor.md, Markdown, Editor&quot; /&gt;
+        &lt;title&gt;Hello world!&lt;/title&gt;
+        &lt;style type=&quot;text/css&quot;&gt;
+            body{font-size:14px;color:#444;font-family: &quot;Microsoft Yahei&quot;, Tahoma, &quot;Hiragino Sans GB&quot;, Arial;background:#fff;}
+            ul{list-style: none;}
+            img{border:none;vertical-align: middle;}
+        &lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1 class=&quot;text-xxl&quot;&gt;Hello world!&lt;/h1&gt;
+        &lt;p class=&quot;text-green&quot;&gt;Plain text&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+```
+### 图片 Images
+
+图片加链接 (Image + Link)：
+
+
+[![](https://www.mdeditor.com/images/logos/markdown.png)](https://www.mdeditor.com/images/logos/markdown.png &quot;markdown&quot;)
+
+&gt; Follow your heart.
+
+----
+### 列表 Lists
+
+#### 无序列表（减号）Unordered Lists (-)
+
+- 列表一
+- 列表二
+- 列表三
+
+#### 无序列表（星号）Unordered Lists (*)
+
+* 列表一
+* 列表二
+* 列表三
+
+#### 无序列表（加号和嵌套）Unordered Lists (+)
++ 列表一
++ 列表二
+    + 列表二-1
+    + 列表二-2
+    + 列表二-3
++ 列表三
+    * 列表一
+    * 列表二
+    * 列表三
+
+#### 有序列表 Ordered Lists (-)
+
+1. 第一行
+2. 第二行
+3. 第三行
+
+#### GFM task list
+
+- [x] GFM task list 1
+- [x] GFM task list 2
+- [ ] GFM task list 3
+    - [ ] GFM task list 3-1
+    - [ ] GFM task list 3-2
+    - [ ] GFM task list 3-3
+- [ ] GFM task list 4
+    - [ ] GFM task list 4-1
+    - [ ] GFM task list 4-2
+
+----
+
+### 绘制表格 Tables
+
+| 项目        | 价格   |  数量  |
+| --------   | -----:  | :----:  |
+| 计算机      | $1600   |   5     |
+| 手机        |   $12   |   12   |
+| 管线        |    $1    |  234  |
+
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
+| Function name | Description                    |
+| ------------- | ------------------------------ |
+| `help()`      | Display the help window.       |
+| `destroy()`   | **Destroy your computer!**     |
+
+| Left-Aligned  | Center Aligned  | Right Aligned |
+| :------------ |:---------------:| -----:|
+| col 3 is      | some wordy text | $1600 |
+| col 2 is      | centered        |   $12 |
+| zebra stripes | are neat        |    $1 |
+
+| Item      | Value |
+| --------- | -----:|
+| Computer  | $1600 |
+| Phone     |   $12 |
+| Pipe      |    $1 |
+
+----
+
+#### 特殊符号 HTML Entities Codes
+
+&amp;copy; &amp;  &amp;uml; &amp;trade; &amp;iexcl; &amp;pound;
+&amp;amp; &amp;lt; &amp;gt; &amp;yen; &amp;euro; &amp;reg; &amp;plusmn; &amp;para; &amp;sect; &amp;brvbar; &amp;macr; &amp;laquo; &amp;middot;
+
+X&amp;sup2; Y&amp;sup3; &amp;frac34; &amp;frac14;  &amp;times;  &amp;divide;   &amp;raquo;
+
+18&amp;ordm;C  &amp;quot;  &amp;apos;
+
+[========]
+
+### Emoji表情 :smiley:
+
+&gt; Blockquotes :star:
+
+#### GFM task lists &amp; Emoji &amp; fontAwesome icon emoji &amp; editormd logo emoji :editormd-logo-5x:
+
+- [x] :smiley: @mentions, :smiley: #refs, [links](), **formatting**, and &lt;del&gt;tags&lt;/del&gt; supported :editormd-logo:;
+- [x] list syntax required (any unordered or ordered list supported) :editormd-logo-3x:;
+- [x] [ ] :smiley: this is a complete item :smiley:;
+- [ ] []this is an incomplete item [test link](#) :fa-star: @pandao;
+- [ ] [ ]this is an incomplete item :fa-star: :fa-gear:;
+    - [ ] :smiley: this is an incomplete item [test link](#) :fa-star: :fa-gear:;
+    - [ ] :smiley: this is  :fa-star: :fa-gear: an incomplete item [test link](#);
+
+#### 反斜杠 Escape
+
+\*literal asterisks\*
+
+[========]
+### 科学公式 TeX(KaTeX)
+
+$$E=mc^2$$
+
+行内的公式$$E=mc^2$$行内的公式，行内的$$E=mc^2$$公式。
+
+$$x &gt; y$$
+
+$$\(\sqrt{3x-1}+(1+x)^2\)$$
+
+$$\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))$$
+
+多行公式：
+
+```math
+\displaystyle
+\left( \sum\_{k=1}^n a\_k b\_k \right)^2
+\leq
+\left( \sum\_{k=1}^n a\_k^2 \right)
+\left( \sum\_{k=1}^n b\_k^2 \right)
+```
+```katex
+\displaystyle
+    \frac{1}{
+        \Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{
+        \frac25 \pi}} = 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {
+        1+\frac{e^{-6\pi}}
+        {1+\frac{e^{-8\pi}}
+        {1+\cdots} }
+        }
+    }
+```
+```latex
+f(x) = \int_{-\infty}^\infty
+    \hat f(\xi)\,e^{2 \pi i \xi x}
+    \,d\xi
+```
+### 分页符 Page break
+
+&gt; Print Test: Ctrl + P
+
+[========]
+
+### 绘制流程图 Flowchart
+
+```flow
+st=&gt;start: 用户登陆
+op=&gt;operation: 登陆操作
+cond=&gt;condition: 登陆成功 Yes or No?
+e=&gt;end: 进入后台
+
+st-&gt;op-&gt;cond
+cond(yes)-&gt;e
+cond(no)-&gt;op
+```
+[========]
+
+### 绘制序列图 Sequence Diagram
+
+```seq
+Andrew-&gt;China: Says Hello
+Note right of China: China thinks\nabout it
+China--&gt;Andrew: How are you?
+Andrew-&gt;&gt;China: I am good thanks!
+```
+
+```</code></pre></p></details>
+
+<details><summary>3</summary><p>
+```
+# Dillinger
+
+</p><p><a href="https://nodesource.com/products/nsolid" target="_blank" rel="noopener"><img src="https://cldup.com/dTxpPi9lDf.thumb.png" alt="N|Solid"></a></p>
+<p><a href="https://travis-ci.org/joemccann/dillinger" target="_blank" rel="noopener"><img src="https://travis-ci.org/joemccann/dillinger.svg?branch=master" alt="Build Status"></a></p>
+<p>Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.</p>
+<ul>
+<li>Type some Markdown on the left</li>
+<li>See HTML in the right</li>
+<li>Magic</li>
+</ul>
+<h1 id="New-Features"><a href="#New-Features" class="headerlink" title="New Features!"></a>New Features!</h1><ul>
+<li>Import a HTML file and watch it magically convert to Markdown</li>
+<li>Drag and drop images (requires your Dropbox account be linked)</li>
+</ul>
+<p>You can also:</p>
+<ul>
+<li>Import and save files from GitHub, Dropbox, Google Drive and One Drive</li>
+<li>Drag and drop markdown and HTML files into Dillinger</li>
+<li>Export documents as Markdown, HTML and PDF</li>
+</ul>
+<p>Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.  As <a href="http://daringfireball.net" target="_blank" rel="noopener">John Gruber</a> writes on the <a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="noopener">Markdown site</a></p>
+<blockquote>
+<p>The overriding design goal for Markdown’s<br>formatting syntax is to make it as readable<br>as possible. The idea is that a<br>Markdown-formatted document should be<br>publishable as-is, as plain text, without<br>looking like it’s been marked up with tags<br>or formatting instructions.</p>
+</blockquote>
+<p>This text you see here is <em>actually</em> written in Markdown! To get a feel for Markdown’s syntax, type some text into the left window and watch the results in the right.</p>
+<h3 id="Tech"><a href="#Tech" class="headerlink" title="Tech"></a>Tech</h3><p>Dillinger uses a number of open source projects to work properly:</p>
+<ul>
+<li><a href="http://angularjs.org" target="_blank" rel="noopener">AngularJS</a> - HTML enhanced for web apps!</li>
+<li><a href="http://ace.ajax.org" target="_blank" rel="noopener">Ace Editor</a> - awesome web-based text editor</li>
+<li><a href="https://github.com/markdown-it/markdown-it" target="_blank" rel="noopener">markdown-it</a> - Markdown parser done right. Fast and easy to extend.</li>
+<li><a href="http://twitter.github.com/bootstrap/" target="_blank" rel="noopener">Twitter Bootstrap</a> - great UI boilerplate for modern web apps</li>
+<li><a href="http://nodejs.org" target="_blank" rel="noopener">node.js</a> - evented I/O for the backend</li>
+<li><a href="http://expressjs.com" target="_blank" rel="noopener">Express</a> - fast node.js network app framework <a href="http://twitter.com/tjholowaychuk" target="_blank" rel="noopener">@tjholowaychuk</a></li>
+<li><a href="http://gulpjs.com" target="_blank" rel="noopener">Gulp</a> - the streaming build system</li>
+<li><a href="https://breakdance.github.io/breakdance/" target="_blank" rel="noopener">Breakdance</a> - HTML to Markdown converter</li>
+<li><a href="http://jquery.com" target="_blank" rel="noopener">jQuery</a> - duh</li>
+</ul>
+<p>And of course Dillinger itself is open source with a <a href="https://github.com/joemccann/dillinger" target="_blank" rel="noopener">public repository</a><br> on GitHub.</p>
+<h3 id="Installation"><a href="#Installation" class="headerlink" title="Installation"></a>Installation</h3><p>Dillinger requires <a href="https://nodejs.org/" target="_blank" rel="noopener">Node.js</a> v4+ to run.</p>
+<p>Install the dependencies and devDependencies and start the server.</p>
+<pre class="line-numbers language-sh"><code class="language-sh">$ cd dillinger
+$ npm install -d
+$ node app<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<p>For production environments…</p>
+<pre class="line-numbers language-sh"><code class="language-sh">$ npm install --production
+$ NODE_ENV=production node app<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<h3 id="Plugins"><a href="#Plugins" class="headerlink" title="Plugins"></a>Plugins</h3><p>Dillinger is currently extended with the following plugins. Instructions on how to use them in your own application are linked below.</p>
+<table>
+<thead>
+<tr>
+<th>Plugin</th>
+<th>README</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Dropbox</td>
+<td><a href="https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md" target="_blank" rel="noopener">plugins/dropbox/README.md</a></td>
+</tr>
+<tr>
+<td>GitHub</td>
+<td><a href="https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md" target="_blank" rel="noopener">plugins/github/README.md</a></td>
+</tr>
+<tr>
+<td>Google Drive</td>
+<td><a href="https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md" target="_blank" rel="noopener">plugins/googledrive/README.md</a></td>
+</tr>
+<tr>
+<td>OneDrive</td>
+<td><a href="https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md" target="_blank" rel="noopener">plugins/onedrive/README.md</a></td>
+</tr>
+<tr>
+<td>Medium</td>
+<td><a href="https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md" target="_blank" rel="noopener">plugins/medium/README.md</a></td>
+</tr>
+<tr>
+<td>Google Analytics</td>
+<td><a href="https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md" target="_blank" rel="noopener">plugins/googleanalytics/README.md</a></td>
+</tr>
+</tbody></table>
+<h3 id="Development"><a href="#Development" class="headerlink" title="Development"></a>Development</h3><p>Want to contribute? Great!</p>
+<p>Dillinger uses Gulp + Webpack for fast developing.<br>Make a change in your file and instantaneously see your updates!</p>
+<p>Open your favorite Terminal and run these commands.</p>
+<p>First Tab:</p>
+<pre class="line-numbers language-sh"><code class="language-sh">$ node app<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>Second Tab:</p>
+<pre class="line-numbers language-sh"><code class="language-sh">$ gulp watch<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>(optional) Third:</p>
+<pre class="line-numbers language-sh"><code class="language-sh">$ karma test<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h4 id="Building-for-source"><a href="#Building-for-source" class="headerlink" title="Building for source"></a>Building for source</h4><p>For production release:</p>
+<pre class="line-numbers language-sh"><code class="language-sh">$ gulp build --prod<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>Generating pre-built zip archives for distribution:</p>
+<pre class="line-numbers language-sh"><code class="language-sh">$ gulp build dist --prod<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h3 id="Docker"><a href="#Docker" class="headerlink" title="Docker"></a>Docker</h3><p>Dillinger is very easy to install and deploy in a Docker container.</p>
+<p>By default, the Docker will expose port 8080, so change this within the Dockerfile if necessary. When ready, simply use the Dockerfile to build the image.</p>
+<pre class="line-numbers language-sh"><code class="language-sh">cd dillinger
+docker build -t joemccann/dillinger:${package.json.version} .<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p>This will create the dillinger image and pull in the necessary dependencies. Be sure to swap out <code>${package.json.version}</code> with the actual version of Dillinger.</p>
+<p>Once done, run the Docker image and map the port to whatever you wish on your host. In this example, we simply map port 8000 of the host to port 8080 of the Docker (or whatever port was exposed in the Dockerfile):</p>
+<pre class="line-numbers language-sh"><code class="language-sh">docker run -d -p 8000:8080 --restart="always" <youruser>/dillinger:${package.json.version}<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>Verify the deployment by navigating to your server address in your preferred browser.</p>
+<pre class="line-numbers language-sh"><code class="language-sh">127.0.0.1:8000<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<h4 id="Kubernetes-Google-Cloud"><a href="#Kubernetes-Google-Cloud" class="headerlink" title="Kubernetes + Google Cloud"></a>Kubernetes + Google Cloud</h4><p>See <a href="https://github.com/joemccann/dillinger/blob/master/KUBERNETES.md" target="_blank" rel="noopener">KUBERNETES.md</a></p>
+<h3 id="Todos"><a href="#Todos" class="headerlink" title="Todos"></a>Todos</h3><ul>
+<li>Write MORE Tests</li>
+<li>Add Night Mode</li>
+</ul>
+<h2 id="License"><a href="#License" class="headerlink" title="License"></a>License</h2><p>MIT</p>
+<p><strong>Free Software, Hell Yeah!</strong></p>
+<p>```</p>
+<p></p></details>
             </div>
             <hr />
 
@@ -833,33 +1067,57 @@ deb-src http://archive.ubuntu.com/ubuntu/ focal-backports main restricted univer
             <div class="article-badge left-badge text-color">
                 <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/li/73bed3ab.html">
+                <a href="/li/98eb74c6.html">
                     <div class="card-image">
                         
-                        <img src="/medias/FM/Vim.jpg" class="responsive-img" alt="Vim编辑器">
                         
-                        <span class="card-title">Vim编辑器</span>
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="一图掌握">
+                        
+                        <span class="card-title">一图掌握</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Vi编辑器
-Vi的基本概念基本上vi可以分为三种状态，分别是命令模式（command mode）、插入模式（Insert mode）和底行模式（last line mode），各模式的功能区分如下:
+                            一图掌握
 
-命令行模式command mode）控
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&nbsp;
+作者Github地址&emsp;&emsp;作者B站主页
+
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2020-09-01
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2020-09-06
                         </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Linux/" class="post-category" target="_blank">
-                                    Linux
+                            <a href="/categories/语言/" class="post-category" target="_blank">
+                                    语言
                                 </a>
                             
                             
@@ -869,8 +1127,8 @@ Vi的基本概念基本上vi可以分为三种状态，分别是命令模式（c
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Vim/" target="_blank">
-                        <span class="chip bg-color">Vim</span>
+                    <a href="/tags/计算机语言/" target="_blank">
+                        <span class="chip bg-color">计算机语言</span>
                     </a>
                     
                 </div>
@@ -881,50 +1139,50 @@ Vi的基本概念基本上vi可以分为三种状态，分别是命令模式（c
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="fa fa-dot-circle-o"></i>
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/li/eb33f17f.html">
+                <a href="/li/d7564f52.html">
                     <div class="card-image">
                         
-                        <img src="/medias/FM/Debian.jpg" class="responsive-img" alt="Linux源">
+                        <img src="/medias/FM/gitlab.jpg" class="responsive-img" alt="Docker安装Gitlab">
                         
-                        <span class="card-title">Linux源</span>
+                        <span class="card-title">Docker安装Gitlab</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
-CentOS
+                            Docker安装Gitlab1. 下载映像
+在套件中心安装Docker
+打开Docker后点击注册表，搜索gitlab，在结果中双击gitlab/gitlab-ce  
+下拉选择版本，可也默认latest
 
-# 腾讯
-# The mirror system uses the connecting IP address of the client and the
-# update status of each mirror to
+2. 创建容器
+下载完成后点击映
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-09-01
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-09-06
                             </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Linux/" class="post-category" target="_blank">
-                                    Linux
+                            <a href="/categories/Docker/" class="post-category" target="_blank">
+                                    Docker
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/源/" target="_blank">
-                        <span class="chip bg-color">源</span>
+                    <a href="/tags/Gitlab/" target="_blank">
+                        <span class="chip bg-color">Gitlab</span>
                     </a>
                     
                 </div>

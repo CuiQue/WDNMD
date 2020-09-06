@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://chensitong.gitee.io/"/>
-  <updated>2020-09-06T13:36:05.698Z</updated>
+  <updated>2020-09-06T15:06:59.899Z</updated>
   <id>https://chensitong.gitee.io/</id>
   
   <author>
@@ -15,6 +15,59 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>一图掌握</title>
+    <link href="https://chensitong.gitee.io/li/98eb74c6.html"/>
+    <id>https://chensitong.gitee.io/li/98eb74c6.html</id>
+    <published>2020-09-06T14:50:00.000Z</published>
+    <updated>2020-09-06T15:06:59.899Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h4 id=&quot;一图掌握&quot;&gt;&lt;a href=&quot;#一图掌握&quot; class=&quot;headerlink&quot; title=&quot;一图掌握&quot;&gt;&lt;/a&gt;一图掌握&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+      <category term="语言" scheme="https://chensitong.gitee.io/categories/%E8%AF%AD%E8%A8%80/"/>
+    
+    
+      <category term="计算机语言" scheme="https://chensitong.gitee.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MARKDOWN 语法说明</title>
+    <link href="https://chensitong.gitee.io/li/da891ef6.html"/>
+    <id>https://chensitong.gitee.io/li/da891ef6.html</id>
+    <published>2020-09-06T14:07:00.000Z</published>
+    <updated>2020-09-06T14:56:36.321Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h4 id=&quot;MARKDOWN-语法说明&quot;&gt;&lt;a href=&quot;#MARKDOWN-语法说明&quot; class=&quot;headerlink&quot; title=&quot;MARKDOWN 语法说明&quot;&gt;&lt;/a&gt;MARKDOWN
+        
+      
+    
+    </summary>
+    
+      <category term="MarkDown" scheme="https://chensitong.gitee.io/categories/MarkDown/"/>
+    
+    
+      <category term="MarkDown" scheme="https://chensitong.gitee.io/tags/MarkDown/"/>
+    
+  </entry>
   
   <entry>
     <title>Docker安装Gitlab</title>
@@ -73,7 +126,7 @@
     <link href="https://chensitong.gitee.io/li/b356b84d.html"/>
     <id>https://chensitong.gitee.io/li/b356b84d.html</id>
     <published>2020-09-06T08:00:00.000Z</published>
-    <updated>2020-09-06T13:40:16.942Z</updated>
+    <updated>2020-09-06T13:40:23.762Z</updated>
     
     <summary type="html">
     
