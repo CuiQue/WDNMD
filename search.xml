@@ -54,31 +54,6 @@
     
     
     <entry>
-      <title>Docker安装Jellyfin</title>
-      <link href="/li/10861230.html"/>
-      <url>/li/10861230.html</url>
-      
-        <content type="html"><![CDATA[<h3 id="Docker安装jellyfin"><a href="#Docker安装jellyfin" class="headerlink" title="Docker安装jellyfin"></a>Docker安装jellyfin</h3><h4 id="1-下载映像"><a href="#1-下载映像" class="headerlink" title="1.下载映像"></a>1.下载映像</h4><ul><li><p>在套件中心安装Docker</p></li><li><p>打开Docker后点击<code>注册表</code>，搜索<code>jellyfin</code>，在结果中双击<code>jellyfin/jellyfin</code><br><img src="/medias/doc/docker/jellyfin.png" alt>  </p></li><li><p>下拉选择版本，可也默认<code>latest</code>.<br><img src="/medias/doc/docker/latest.png" alt></p><h4 id="2-部署容器"><a href="#2-部署容器" class="headerlink" title="2.  部署容器"></a>2.  部署容器</h4><ul><li>在<code>映像</code>中双击<code>jellyfin/jellyfin:latest</code><br><img src="/medias/doc/docker/jellyfin1.png" alt></li></ul></li><li><p>设置容器名称，然后点击<code>高级设置</code>勾选<code>启动自动重新启动</code>，点<code>卷</code>添加文件夹，<code>文件/文件夹</code>为本地路径，<code>装载路径</code>为容器内部路径，可自行设置.<br><img src="/medias/doc/docker/jellyfin2.png" alt><br><img src="/medias/doc/docker/jellyfin3.png" alt></p></li><li><p>然后设置一下端口，默认就是8096，设置一样的即可.<br><img src="/medias/doc/docker/jellyfin4.png" alt></p></li><li><p>最后点击应用即可完成设置</p><h4 id="3-设置jellyfin"><a href="#3-设置jellyfin" class="headerlink" title="3.  设置jellyfin"></a>3.  设置jellyfin</h4></li><li><p>在浏览器中输入<code>群晖ip:8096</code>,就进入到了jellyfin设置页面，默认是英文，先设置成中文,设置账号密码。<br><img src="/medias/doc/docker/jellyfin5.png" alt><br><img src="/medias/doc/docker/jellyfin6.png" alt></p></li><li><p>这里是添加媒体库，暂时先不添加，直接点Next跳过，其它默认就行，完成设置.<br><img src="./medias/doc/docker/jellyfin7.png" alt><br><img src="/medias/doc/docker/jellyfin8.png" alt><br><img src="/medias/doc/docker/jellyfin9.png" alt></p></li><li><p>然后重新登陆就行<br><img src="/medias/doc/docker/jellyfin10.png" alt></p></li><li><p>进入到jellyf后台了，先设置一下媒体库<br><img src="/medias/doc/docker/jellyfin11.png" alt><br><img src="/medias/doc/docker/jellyfin12.png" alt></p></li><li><p>跟着设置就行了，最后完成.<br><img src="/medias/doc/docker/jellyfin13.png" alt></p><h4 id="4-转码设置"><a href="#4-转码设置" class="headerlink" title="4.  转码设置"></a>4.  转码设置</h4></li><li><p>首先查看设备是否支持硬件转码，在群晖<code>控制面板</code>中点击<code>终端机和SNMP</code>，开启<code>SSH</code>功能.<br><img src="/medias/doc/docker/jellyfin14.png" alt></p></li><li><p>使用<code>SSH</code>客户端连接后输入</p><pre><code>ls /dev/dri</code></pre></li><li><p>显示<code>renderD128</code>表示支持<br><img src="./medias/doc/docker/jellyfin15.png" alt></p></li><li><p>在jellyfin后台进行转码设置<br><img src="/medias/doc/docker/jellyfin16.png" alt></p></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> Docker </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Jellyfin </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Docker安装Gitlab</title>
       <link href="/li/d7564f52.html"/>
       <url>/li/d7564f52.html</url>
@@ -96,6 +71,31 @@
         <tags>
             
             <tag> Gitlab </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Docker安装Jellyfin</title>
+      <link href="/li/10861230.html"/>
+      <url>/li/10861230.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="Docker安装jellyfin"><a href="#Docker安装jellyfin" class="headerlink" title="Docker安装jellyfin"></a>Docker安装jellyfin</h3><h4 id="1-下载映像"><a href="#1-下载映像" class="headerlink" title="1.下载映像"></a>1.下载映像</h4><ul><li><p>在套件中心安装Docker</p></li><li><p>打开Docker后点击<code>注册表</code>，搜索<code>jellyfin</code>，在结果中双击<code>jellyfin/jellyfin</code><br><img src="/medias/doc/docker/jellyfin.png" alt>  </p></li><li><p>下拉选择版本，可也默认<code>latest</code>.<br><img src="/medias/doc/docker/latest.png" alt></p><h4 id="2-部署容器"><a href="#2-部署容器" class="headerlink" title="2.  部署容器"></a>2.  部署容器</h4><ul><li>在<code>映像</code>中双击<code>jellyfin/jellyfin:latest</code><br><img src="/medias/doc/docker/jellyfin1.png" alt></li></ul></li><li><p>设置容器名称，然后点击<code>高级设置</code>勾选<code>启动自动重新启动</code>，点<code>卷</code>添加文件夹，<code>文件/文件夹</code>为本地路径，<code>装载路径</code>为容器内部路径，可自行设置.<br><img src="/medias/doc/docker/jellyfin2.png" alt><br><img src="/medias/doc/docker/jellyfin3.png" alt></p></li><li><p>然后设置一下端口，默认就是8096，设置一样的即可.<br><img src="/medias/doc/docker/jellyfin4.png" alt></p></li><li><p>最后点击应用即可完成设置</p><h4 id="3-设置jellyfin"><a href="#3-设置jellyfin" class="headerlink" title="3.  设置jellyfin"></a>3.  设置jellyfin</h4></li><li><p>在浏览器中输入<code>群晖ip:8096</code>,就进入到了jellyfin设置页面，默认是英文，先设置成中文,设置账号密码。<br><img src="/medias/doc/docker/jellyfin5.png" alt><br><img src="/medias/doc/docker/jellyfin6.png" alt></p></li><li><p>这里是添加媒体库，暂时先不添加，直接点Next跳过，其它默认就行，完成设置.<br><img src="./medias/doc/docker/jellyfin7.png" alt><br><img src="/medias/doc/docker/jellyfin8.png" alt><br><img src="/medias/doc/docker/jellyfin9.png" alt></p></li><li><p>然后重新登陆就行<br><img src="/medias/doc/docker/jellyfin10.png" alt></p></li><li><p>进入到jellyf后台了，先设置一下媒体库<br><img src="/medias/doc/docker/jellyfin11.png" alt><br><img src="/medias/doc/docker/jellyfin12.png" alt></p></li><li><p>跟着设置就行了，最后完成.<br><img src="/medias/doc/docker/jellyfin13.png" alt></p><h4 id="4-转码设置"><a href="#4-转码设置" class="headerlink" title="4.  转码设置"></a>4.  转码设置</h4></li><li><p>首先查看设备是否支持硬件转码，在群晖<code>控制面板</code>中点击<code>终端机和SNMP</code>，开启<code>SSH</code>功能.<br><img src="/medias/doc/docker/jellyfin14.png" alt></p></li><li><p>使用<code>SSH</code>客户端连接后输入</p><pre><code>ls /dev/dri</code></pre></li><li><p>显示<code>renderD128</code>表示支持<br><img src="./medias/doc/docker/jellyfin15.png" alt></p></li><li><p>在jellyfin后台进行转码设置<br><img src="/medias/doc/docker/jellyfin16.png" alt></p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> Docker </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Jellyfin </tag>
             
         </tags>
       
