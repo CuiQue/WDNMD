@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://ziku.gitee.io/"/>
+  <link href="https://cainiao.gitee.io/"/>
   <updated>2020-09-06T15:06:59.899Z</updated>
-  <id>https://ziku.gitee.io/</id>
+  <id>https://cainiao.gitee.io/</id>
   
   <author>
     <name>丽</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>一图掌握</title>
-    <link href="https://ziku.gitee.io/li/98eb74c6.html"/>
-    <id>https://ziku.gitee.io/li/98eb74c6.html</id>
+    <link href="https://cainiao.gitee.io/li/98eb74c6.html"/>
+    <id>https://cainiao.gitee.io/li/98eb74c6.html</id>
     <published>2020-09-06T14:50:00.000Z</published>
     <updated>2020-09-06T15:06:59.899Z</updated>
     
@@ -36,17 +36,17 @@
     
     </summary>
     
-      <category term="语言" scheme="https://ziku.gitee.io/categories/%E8%AF%AD%E8%A8%80/"/>
+      <category term="语言" scheme="https://cainiao.gitee.io/categories/%E8%AF%AD%E8%A8%80/"/>
     
     
-      <category term="计算机语言" scheme="https://ziku.gitee.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80/"/>
+      <category term="计算机语言" scheme="https://cainiao.gitee.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80/"/>
     
   </entry>
   
   <entry>
     <title>MARKDOWN 语法说明</title>
-    <link href="https://ziku.gitee.io/li/da891ef6.html"/>
-    <id>https://ziku.gitee.io/li/da891ef6.html</id>
+    <link href="https://cainiao.gitee.io/li/da891ef6.html"/>
+    <id>https://cainiao.gitee.io/li/da891ef6.html</id>
     <published>2020-09-06T14:07:00.000Z</published>
     <updated>2020-09-06T14:56:36.321Z</updated>
     
@@ -62,43 +62,17 @@
     
     </summary>
     
-      <category term="MarkDown" scheme="https://ziku.gitee.io/categories/MarkDown/"/>
+      <category term="MarkDown" scheme="https://cainiao.gitee.io/categories/MarkDown/"/>
     
     
-      <category term="MarkDown" scheme="https://ziku.gitee.io/tags/MarkDown/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Docker安装Gitlab</title>
-    <link href="https://ziku.gitee.io/li/d7564f52.html"/>
-    <id>https://ziku.gitee.io/li/d7564f52.html</id>
-    <published>2020-09-06T08:00:00.000Z</published>
-    <updated>2020-09-06T13:36:05.698Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;Docker安装Gitlab&quot;&gt;&lt;a href=&quot;#Docker安装Gitlab&quot; class=&quot;headerlink&quot; title=&quot;Docker安装Gitlab&quot;&gt;&lt;/a&gt;Docker安装Gitlab&lt;/h3&gt;&lt;h4 id=&quot;1-下载映像&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="Docker" scheme="https://ziku.gitee.io/categories/Docker/"/>
-    
-    
-      <category term="Gitlab" scheme="https://ziku.gitee.io/tags/Gitlab/"/>
+      <category term="MarkDown" scheme="https://cainiao.gitee.io/tags/MarkDown/"/>
     
   </entry>
   
   <entry>
     <title>Docker安装Jellyfin</title>
-    <link href="https://ziku.gitee.io/li/10861230.html"/>
-    <id>https://ziku.gitee.io/li/10861230.html</id>
+    <link href="https://cainiao.gitee.io/li/10861230.html"/>
+    <id>https://cainiao.gitee.io/li/10861230.html</id>
     <published>2020-09-06T08:00:00.000Z</published>
     <updated>2020-09-06T13:36:05.702Z</updated>
     
@@ -114,17 +88,43 @@
     
     </summary>
     
-      <category term="Docker" scheme="https://ziku.gitee.io/categories/Docker/"/>
+      <category term="Docker" scheme="https://cainiao.gitee.io/categories/Docker/"/>
     
     
-      <category term="Jellyfin" scheme="https://ziku.gitee.io/tags/Jellyfin/"/>
+      <category term="Jellyfin" scheme="https://cainiao.gitee.io/tags/Jellyfin/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Docker安装Gitlab</title>
+    <link href="https://cainiao.gitee.io/li/d7564f52.html"/>
+    <id>https://cainiao.gitee.io/li/d7564f52.html</id>
+    <published>2020-09-06T08:00:00.000Z</published>
+    <updated>2020-09-06T13:36:05.698Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;Docker安装Gitlab&quot;&gt;&lt;a href=&quot;#Docker安装Gitlab&quot; class=&quot;headerlink&quot; title=&quot;Docker安装Gitlab&quot;&gt;&lt;/a&gt;Docker安装Gitlab&lt;/h3&gt;&lt;h4 id=&quot;1-下载映像&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="Docker" scheme="https://cainiao.gitee.io/categories/Docker/"/>
+    
+    
+      <category term="Gitlab" scheme="https://cainiao.gitee.io/tags/Gitlab/"/>
     
   </entry>
   
   <entry>
     <title>Docker安装adguardhome</title>
-    <link href="https://ziku.gitee.io/li/b356b84d.html"/>
-    <id>https://ziku.gitee.io/li/b356b84d.html</id>
+    <link href="https://cainiao.gitee.io/li/b356b84d.html"/>
+    <id>https://cainiao.gitee.io/li/b356b84d.html</id>
     <published>2020-09-06T08:00:00.000Z</published>
     <updated>2020-09-06T13:40:23.762Z</updated>
     
@@ -140,17 +140,17 @@
     
     </summary>
     
-      <category term="Docker" scheme="https://ziku.gitee.io/categories/Docker/"/>
+      <category term="Docker" scheme="https://cainiao.gitee.io/categories/Docker/"/>
     
     
-      <category term="Docker" scheme="https://ziku.gitee.io/tags/Docker/"/>
+      <category term="Docker" scheme="https://cainiao.gitee.io/tags/Docker/"/>
     
   </entry>
   
   <entry>
     <title>Docker安装</title>
-    <link href="https://ziku.gitee.io/li/a3201697.html"/>
-    <id>https://ziku.gitee.io/li/a3201697.html</id>
+    <link href="https://cainiao.gitee.io/li/a3201697.html"/>
+    <id>https://cainiao.gitee.io/li/a3201697.html</id>
     <published>2020-09-01T11:40:07.000Z</published>
     <updated>2020-09-05T12:51:26.570Z</updated>
     
@@ -170,17 +170,17 @@
     
     </summary>
     
-      <category term="Linux" scheme="https://ziku.gitee.io/categories/Linux/"/>
+      <category term="Linux" scheme="https://cainiao.gitee.io/categories/Linux/"/>
     
     
-      <category term="Docker" scheme="https://ziku.gitee.io/tags/Docker/"/>
+      <category term="Docker" scheme="https://cainiao.gitee.io/tags/Docker/"/>
     
   </entry>
   
   <entry>
     <title>Linux设置静态IP</title>
-    <link href="https://ziku.gitee.io/li/7c4cab82.html"/>
-    <id>https://ziku.gitee.io/li/7c4cab82.html</id>
+    <link href="https://cainiao.gitee.io/li/7c4cab82.html"/>
+    <id>https://cainiao.gitee.io/li/7c4cab82.html</id>
     <published>2020-09-01T11:40:07.000Z</published>
     <updated>2020-09-05T12:52:05.834Z</updated>
     
@@ -199,17 +199,17 @@
     
     </summary>
     
-      <category term="Linux" scheme="https://ziku.gitee.io/categories/Linux/"/>
+      <category term="Linux" scheme="https://cainiao.gitee.io/categories/Linux/"/>
     
     
-      <category term="Linux" scheme="https://ziku.gitee.io/tags/Linux/"/>
+      <category term="Linux" scheme="https://cainiao.gitee.io/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>Vim编辑器</title>
-    <link href="https://ziku.gitee.io/li/73bed3ab.html"/>
-    <id>https://ziku.gitee.io/li/73bed3ab.html</id>
+    <link href="https://cainiao.gitee.io/li/73bed3ab.html"/>
+    <id>https://cainiao.gitee.io/li/73bed3ab.html</id>
     <published>2020-09-01T11:40:07.000Z</published>
     <updated>2020-09-01T13:45:28.933Z</updated>
     
@@ -225,17 +225,17 @@
     
     </summary>
     
-      <category term="Linux" scheme="https://ziku.gitee.io/categories/Linux/"/>
+      <category term="Linux" scheme="https://cainiao.gitee.io/categories/Linux/"/>
     
     
-      <category term="Vim" scheme="https://ziku.gitee.io/tags/Vim/"/>
+      <category term="Vim" scheme="https://cainiao.gitee.io/tags/Vim/"/>
     
   </entry>
   
   <entry>
     <title>Linux源</title>
-    <link href="https://ziku.gitee.io/li/eb33f17f.html"/>
-    <id>https://ziku.gitee.io/li/eb33f17f.html</id>
+    <link href="https://cainiao.gitee.io/li/eb33f17f.html"/>
+    <id>https://cainiao.gitee.io/li/eb33f17f.html</id>
     <published>2020-09-01T11:40:07.000Z</published>
     <updated>2020-09-06T13:36:05.702Z</updated>
     
@@ -256,10 +256,10 @@
     
     </summary>
     
-      <category term="Linux" scheme="https://ziku.gitee.io/categories/Linux/"/>
+      <category term="Linux" scheme="https://cainiao.gitee.io/categories/Linux/"/>
     
     
-      <category term="源" scheme="https://ziku.gitee.io/tags/%E6%BA%90/"/>
+      <category term="源" scheme="https://cainiao.gitee.io/tags/%E6%BA%90/"/>
     
   </entry>
   
