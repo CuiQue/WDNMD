@@ -141,15 +141,6 @@
         </a>
     </li>
     
-    <li class="hide-on-med-and-down">
-        <a href="/contact" class="waves-effect waves-light">
-            
-            <i class="fa fa-comments"></i>
-            
-            <span>留言板</span>
-        </a>
-    </li>
-    
     <li>
         <a href="#searchModal" class="modal-trigger waves-effect waves-light">
             <i id="searchIcon" class="fa fa-search" title="搜索"></i>
@@ -226,15 +217,6 @@
                 <i class="fa fa-fw fa-address-book"></i>
                 
                 友情链接
-            </a>
-        </li>
-        
-        <li>
-            <a href="/contact" class="waves-effect waves-light">
-                
-                <i class="fa fa-fw fa-comments"></i>
-                
-                留言板
             </a>
         </li>
         
@@ -383,7 +365,7 @@ $(function () {
     let autoCarousel = function() {
         carouselIntervalId = setInterval(function () {
             coverSlider.carousel('next');
-        }, 5000);
+        }, 12);
     };
     autoCarousel();
     
@@ -421,6 +403,37 @@ $(function () {
                     
 
                     
+                    
+
+<link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<div class="music-player">
+    
+    <div class="row">
+        <div class="col l8 offset-l2 m10 offset-m1 s12">
+            <div id="aplayer" class="music"></div>
+        </div>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script>
+$(function () {
+    new APlayer({
+        container: document.getElementById('aplayer'),
+        fixed: 'true' === 'true',
+        autoplay: 'false' === 'true',
+        theme: 'blue',
+        loop: 'all',
+        order: 'random',
+        preload: 'auto',
+        volume: Number('0.7'),
+        listFolded: 'true' === 'true',
+        listMaxHeight: '',
+        audio: JSON.parse('[{"name":"你们的幸福","artist":"谢安琪","url":"/medias/music/谢安琪 - 你们的幸福.flac","cover":"/medias/music/avatars/nimendexingfu.jpg"},{"name":"大海 ~DA HAI~","artist":"JAYWALK (ジェイ・ウォーク)","url":"/medias/music/JAYWALK - 大海 ~DA HAI~.mp3","cover":"/medias/music/avatars/JAYWALKSUPER BEST.jpg"},{"name":"问 (Live)","artist":"李宗盛","url":"/medias/music/李宗盛 - 问 (Live).mp3","cover":"/medias/music/avatars/lizongsong.jpg"},{"name":"新写的旧歌","artist":"李宗盛","url":"/medias/music/李宗盛 - 新写的旧歌.ogg","cover":"/medias/music/avatars/lizongsong.jpg"},{"name":"远走高飞","artist":"林忆莲","url":"/medias/music/林忆莲 - 远走高飞.ogg","cover":"/medias/music/avatars/linyilian.jpg"},{"name":"曾经的你","artist":"许巍","url":"/medias/music/许巍 - 曾经的你.ogg","cover":"/medias/music/avatars/cishicike.jpg"},{"name":"天涯","artist":"任贤齐","url":"/medias/music/任贤齐 - 天涯.mp3","cover":"/medias/music/avatars/tianya.jpg"}]')
+    });
+});
+</script>
+                    
 
                     
 
@@ -457,33 +470,7 @@ $(function () {
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            一图掌握
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&nbsp;
-作者Github地址&emsp;&emsp;作者B站主页
-
+                            一图了解各语言
                             
                         </div>
                         <div class="publish-info">
@@ -529,23 +516,7 @@ $(function () {
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            MARKDOWN 语法说明1
-
-````
-标题
----------------------------
-
-# 一级标题
-## 二级标题
-### 三级标题
-
-
-样式
----------------------------
-
-*斜体* 
-
-**
+                            MARKDOWN 语法说明
                             
                         </div>
                         <div class="publish-info">
@@ -591,13 +562,7 @@ $(function () {
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            Docker安装Gitlab1. 下载映像
-在套件中心安装Docker
-打开Docker后点击注册表，搜索gitlab，在结果中双击gitlab/gitlab-ce  
-下拉选择版本，可也默认latest
-
-2. 创建容器
-下载完成后点击映
+                            Docker安装Gitlab
                             
                         </div>
                         <div class="publish-info">
@@ -643,14 +608,7 @@ $(function () {
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            Docker安装jellyfin1.下载映像
-在套件中心安装Docker
-
-打开Docker后点击注册表，搜索jellyfin，在结果中双击jellyfin/jellyfin  
-
-下拉选择版本，可也默认latest.
-2.  部署容器
-在
+                            Docker安装Jellyfin
                             
                         </div>
                         <div class="publish-info">
@@ -696,13 +654,7 @@ $(function () {
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            Docker安装adguardhome1.下载映像
-在套件中心安装Docker
-
-打开Docker后点击注册表，搜索adguardhome，在结果中双击adguard/adguardhome  
-
-下拉选择版本，可也默认latest.
-2.
+                            Docker安装adguardhome
                             
                         </div>
                         <div class="publish-info">
@@ -748,13 +700,7 @@ $(function () {
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            CentOS 7
-检查环境
-
-检查内核版本，返回的值大于3.10即可
-uname -r卸载
-1.查询安装过的包
-yum list installed | grep dockerdocker-engine.x86_64            
+                            Docker安装
                             
                         </div>
                         <div class="publish-info">
@@ -800,13 +746,7 @@ yum list installed | grep dockerdocker-engine.x86_64
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            ArchLinux
-​    1.编辑配置文件
-​            网卡
-/etc/dhcpcd.conf
-​    2.添加下列内容
-interface eth0                        #设置网卡名
-stat
+                            Linux设置静态IP
                             
                         </div>
                         <div class="publish-info">
@@ -852,10 +792,7 @@ stat
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            Vi编辑器
-Vi的基本概念基本上vi可以分为三种状态，分别是命令模式（command mode）、插入模式（Insert mode）和底行模式（last line mode），各模式的功能区分如下:
-
-命令行模式command mode）控
+                            Vim编辑器
                             
                         </div>
                         <div class="publish-info">
@@ -901,12 +838,7 @@ Vi的基本概念基本上vi可以分为三种状态，分别是命令模式（c
                     <div class="card-content article-content">
                         <div class="summary block-with-text">
                             
-                            
-CentOS
-
-# 腾讯
-# The mirror system uses the connecting IP address of the client and the
-# update status of each mirror to
+                            Linux源
                             
                         </div>
                         <div class="publish-info">
